@@ -25,58 +25,60 @@ public class MainUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTabbedPane1 = new javax.swing.JTabbedPane();
-        jPanel1 = new javax.swing.JPanel();
+        mainFrame = new javax.swing.JTabbedPane();
+        userPanel = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
-        jPanel2 = new javax.swing.JPanel();
+        carPanel = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
-        jPanel3 = new javax.swing.JPanel();
+        vanPanel = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
-        jPanel4 = new javax.swing.JPanel();
+        bikePanel = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTable3 = new javax.swing.JTable();
-        jPanel5 = new javax.swing.JPanel();
+        truckPanel = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
         jTable4 = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1250, 1000));
         setResizable(false);
 
-        jTabbedPane1.setBackground(new java.awt.Color(51, 255, 51));
-        jTabbedPane1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jTabbedPane1.setForeground(new java.awt.Color(255, 255, 255));
-        jTabbedPane1.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
-        jTabbedPane1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jTabbedPane1.setPreferredSize(new java.awt.Dimension(1200, 900));
+        mainFrame.setBackground(new java.awt.Color(51, 255, 51));
+        mainFrame.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        mainFrame.setForeground(new java.awt.Color(255, 255, 255));
+        mainFrame.setTabLayoutPolicy(javax.swing.JTabbedPane.SCROLL_TAB_LAYOUT);
+        mainFrame.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        mainFrame.setPreferredSize(new java.awt.Dimension(1250, 900));
 
-        jPanel1.setBackground(new java.awt.Color(0, 102, 102));
-        jPanel1.setBorder(javax.swing.BorderFactory.createCompoundBorder());
+        userPanel.setBackground(new java.awt.Color(0, 102, 102));
+        userPanel.setBorder(javax.swing.BorderFactory.createCompoundBorder());
 
-        jButton1.setText("jButton1");
+        jButton1.setBackground(new java.awt.Color(0, 102, 102));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/enter.png"))); // NOI18N
+        jButton1.setBorder(new javax.swing.border.MatteBorder(null));
+        jButton1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addContainerGap())
+        javax.swing.GroupLayout userPanelLayout = new javax.swing.GroupLayout(userPanel);
+        userPanel.setLayout(userPanelLayout);
+        userPanelLayout.setHorizontalGroup(
+            userPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(userPanelLayout.createSequentialGroup()
+                .addGap(58, 58, 58)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(1005, Short.MAX_VALUE))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addContainerGap())
+        userPanelLayout.setVerticalGroup(
+            userPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(userPanelLayout.createSequentialGroup()
+                .addGap(54, 54, 54)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(3983, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("", new javax.swing.ImageIcon("C:\\Users\\edhan\\OneDrive\\Desktop\\JavaProjects\\CarGo\\src\\icons\\people.jpg"), jPanel1); // NOI18N
+        mainFrame.addTab("", new javax.swing.ImageIcon("C:\\Users\\edhan\\OneDrive\\Desktop\\JavaProjects\\CarGo\\src\\icons\\people.jpg"), userPanel); // NOI18N
 
-        jPanel2.setBackground(new java.awt.Color(255, 51, 51));
+        carPanel.setBackground(new java.awt.Color(255, 51, 51));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -91,26 +93,26 @@ public class MainUI extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        javax.swing.GroupLayout carPanelLayout = new javax.swing.GroupLayout(carPanel);
+        carPanel.setLayout(carPanelLayout);
+        carPanelLayout.setHorizontalGroup(
+            carPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(carPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        carPanelLayout.setVerticalGroup(
+            carPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(carPanelLayout.createSequentialGroup()
                 .addGap(171, 171, 171)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/car.png")), jPanel2); // NOI18N
+        mainFrame.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/car.png")), carPanel); // NOI18N
 
-        jPanel3.setBackground(new java.awt.Color(0, 102, 255));
+        vanPanel.setBackground(new java.awt.Color(0, 102, 255));
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -125,26 +127,26 @@ public class MainUI extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(jTable2);
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
+        javax.swing.GroupLayout vanPanelLayout = new javax.swing.GroupLayout(vanPanel);
+        vanPanel.setLayout(vanPanelLayout);
+        vanPanelLayout.setHorizontalGroup(
+            vanPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(vanPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
+        vanPanelLayout.setVerticalGroup(
+            vanPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(vanPanelLayout.createSequentialGroup()
                 .addGap(171, 171, 171)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/camper.png")), jPanel3); // NOI18N
+        mainFrame.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/camper.png")), vanPanel); // NOI18N
 
-        jPanel4.setBackground(new java.awt.Color(51, 0, 0));
+        bikePanel.setBackground(new java.awt.Color(51, 0, 0));
 
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -159,26 +161,26 @@ public class MainUI extends javax.swing.JFrame {
         ));
         jScrollPane3.setViewportView(jTable3);
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        javax.swing.GroupLayout bikePanelLayout = new javax.swing.GroupLayout(bikePanel);
+        bikePanel.setLayout(bikePanelLayout);
+        bikePanelLayout.setHorizontalGroup(
+            bikePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(bikePanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+        bikePanelLayout.setVerticalGroup(
+            bikePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(bikePanelLayout.createSequentialGroup()
                 .addGap(171, 171, 171)
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 23, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/scooter.png")), jPanel4); // NOI18N
+        mainFrame.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/scooter.png")), bikePanel); // NOI18N
 
-        jPanel5.setBackground(new java.awt.Color(255, 204, 51));
+        truckPanel.setBackground(new java.awt.Color(255, 204, 51));
 
         jTable4.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -193,26 +195,26 @@ public class MainUI extends javax.swing.JFrame {
         ));
         jScrollPane4.setViewportView(jTable4);
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
+        javax.swing.GroupLayout truckPanelLayout = new javax.swing.GroupLayout(truckPanel);
+        truckPanel.setLayout(truckPanelLayout);
+        truckPanelLayout.setHorizontalGroup(
+            truckPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(truckPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
+        truckPanelLayout.setVerticalGroup(
+            truckPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(truckPanelLayout.createSequentialGroup()
                 .addGap(171, 171, 171)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 23, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/truck.png")), jPanel5); // NOI18N
+        mainFrame.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/truck.png")), truckPanel); // NOI18N
 
-        getContentPane().add(jTabbedPane1, java.awt.BorderLayout.CENTER);
+        getContentPane().add(mainFrame, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -253,20 +255,20 @@ public class MainUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel bikePanel;
+    private javax.swing.JPanel carPanel;
     private javax.swing.JButton jButton1;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable2;
     private javax.swing.JTable jTable3;
     private javax.swing.JTable jTable4;
+    private javax.swing.JTabbedPane mainFrame;
+    private javax.swing.JPanel truckPanel;
+    private javax.swing.JPanel userPanel;
+    private javax.swing.JPanel vanPanel;
     // End of variables declaration//GEN-END:variables
 }
