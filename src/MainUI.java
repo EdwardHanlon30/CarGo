@@ -147,7 +147,7 @@ public class MainUI extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        mainFrame.addTab("", new javax.swing.ImageIcon("C:\\Users\\edhan\\OneDrive\\Desktop\\JavaProjects\\CarGo\\src\\icons\\people.jpg"), userPanel); // NOI18N
+        mainFrame.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/people.jpg")), userPanel); // NOI18N
 
         carPanel.setBackground(new java.awt.Color(255, 51, 51));
 
