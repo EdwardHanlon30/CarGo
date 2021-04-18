@@ -49,16 +49,16 @@ public class MainUI extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         carPanel = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        carTable = new javax.swing.JTable();
         vanPanel = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
+        vanTable = new javax.swing.JTable();
         bikePanel = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTable3 = new javax.swing.JTable();
+        motorBikeTable = new javax.swing.JTable();
         truckPanel = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
-        jTable4 = new javax.swing.JTable();
+        truckTable = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -104,7 +104,7 @@ public class MainUI extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(216, Short.MAX_VALUE)
+                .addContainerGap(291, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel2)
@@ -172,8 +172,9 @@ public class MainUI extends javax.swing.JFrame {
 
         regExpiryNumber.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
 
+        regConfirm.setBackground(new java.awt.Color(0, 102, 102));
         regConfirm.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        regConfirm.setText("Register");
+        regConfirm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/register.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -200,7 +201,7 @@ public class MainUI extends javax.swing.JFrame {
                                 .addComponent(regPassword)
                                 .addComponent(regCardNumber))
                             .addComponent(regSecurityCode, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(182, Short.MAX_VALUE))
+                .addContainerGap(257, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -233,7 +234,7 @@ public class MainUI extends javax.swing.JFrame {
                     .addComponent(regSecurityCode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(46, 46, 46)
                 .addComponent(regConfirm)
-                .addContainerGap(181, Short.MAX_VALUE))
+                .addContainerGap(159, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("REGISTER", new javax.swing.ImageIcon(getClass().getResource("/icons/registration-form.png")), jPanel4); // NOI18N
@@ -242,7 +243,7 @@ public class MainUI extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 874, Short.MAX_VALUE)
+            .addGap(0, 949, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -255,7 +256,7 @@ public class MainUI extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 874, Short.MAX_VALUE)
+            .addGap(0, 949, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -269,8 +270,8 @@ public class MainUI extends javax.swing.JFrame {
         userPanelLayout.setHorizontalGroup(
             userPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(userPanelLayout.createSequentialGroup()
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 85, Short.MAX_VALUE))
+                .addComponent(jTabbedPane1)
+                .addContainerGap())
         );
         userPanelLayout.setVerticalGroup(
             userPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -284,7 +285,7 @@ public class MainUI extends javax.swing.JFrame {
 
         carPanel.setBackground(new java.awt.Color(255, 51, 51));
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        carTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -295,7 +296,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(carTable);
 
         javax.swing.GroupLayout carPanelLayout = new javax.swing.GroupLayout(carPanel);
         carPanel.setLayout(carPanelLayout);
@@ -318,7 +319,7 @@ public class MainUI extends javax.swing.JFrame {
 
         vanPanel.setBackground(new java.awt.Color(0, 102, 255));
 
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+        vanTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -329,7 +330,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane2.setViewportView(jTable2);
+        jScrollPane2.setViewportView(vanTable);
 
         javax.swing.GroupLayout vanPanelLayout = new javax.swing.GroupLayout(vanPanel);
         vanPanel.setLayout(vanPanelLayout);
@@ -352,7 +353,7 @@ public class MainUI extends javax.swing.JFrame {
 
         bikePanel.setBackground(new java.awt.Color(51, 0, 0));
 
-        jTable3.setModel(new javax.swing.table.DefaultTableModel(
+        motorBikeTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -363,7 +364,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane3.setViewportView(jTable3);
+        jScrollPane3.setViewportView(motorBikeTable);
 
         javax.swing.GroupLayout bikePanelLayout = new javax.swing.GroupLayout(bikePanel);
         bikePanel.setLayout(bikePanelLayout);
@@ -386,7 +387,7 @@ public class MainUI extends javax.swing.JFrame {
 
         truckPanel.setBackground(new java.awt.Color(255, 204, 51));
 
-        jTable4.setModel(new javax.swing.table.DefaultTableModel(
+        truckTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -397,7 +398,10 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane4.setViewportView(jTable4);
+        truckTable.setColumnSelectionAllowed(true);
+        truckTable.getTableHeader().setReorderingAllowed(false);
+        jScrollPane4.setViewportView(truckTable);
+        truckTable.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_INTERVAL_SELECTION);
 
         javax.swing.GroupLayout truckPanelLayout = new javax.swing.GroupLayout(truckPanel);
         truckPanel.setLayout(truckPanelLayout);
@@ -459,6 +463,7 @@ public class MainUI extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel bikePanel;
     private javax.swing.JPanel carPanel;
+    private javax.swing.JTable carTable;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -477,14 +482,11 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTable jTable2;
-    private javax.swing.JTable jTable3;
-    private javax.swing.JTable jTable4;
     private javax.swing.JButton loginConfirm;
     private javax.swing.JPasswordField loginPassword;
     private javax.swing.JTextField loginUsername;
     private javax.swing.JTabbedPane mainFrame;
+    private javax.swing.JTable motorBikeTable;
     private javax.swing.JTextField regCardNumber;
     private javax.swing.JButton regConfirm;
     private javax.swing.JTextField regEmail;
@@ -493,7 +495,9 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JTextField regSecurityCode;
     private javax.swing.JTextField regUserNmae;
     private javax.swing.JPanel truckPanel;
+    private javax.swing.JTable truckTable;
     private javax.swing.JPanel userPanel;
     private javax.swing.JPanel vanPanel;
+    private javax.swing.JTable vanTable;
     // End of variables declaration//GEN-END:variables
 }
