@@ -49,7 +49,9 @@ public class MainUI extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel5 = new javax.swing.JPanel();
+        jComboBox1 = new javax.swing.JComboBox<>();
         jPanel6 = new javax.swing.JPanel();
+        jTabbedPane4 = new javax.swing.JTabbedPane();
         carPanel = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         carTable = new javax.swing.JTable();
@@ -272,18 +274,37 @@ public class MainUI extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("USER ACCOUNT", new javax.swing.ImageIcon(getClass().getResource("/icons/management.png")), jPanel1); // NOI18N
 
+        jTabbedPane2.setBackground(new java.awt.Color(0, 102, 102));
+
+        jPanel5.setBackground(new java.awt.Color(0, 102, 102));
+
+        jComboBox1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "car", "motorbike", "van", "truck" }));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 787, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(583, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.addTab("tab1", jPanel5);
+        jTabbedPane2.addTab("Update vehicles", jPanel5);
+
+        jPanel6.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -296,7 +317,10 @@ public class MainUI extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        jTabbedPane2.addTab("tab2", jPanel6);
+        jTabbedPane2.addTab("Update users", jPanel6);
+
+        jTabbedPane4.setBackground(new java.awt.Color(0, 102, 102));
+        jTabbedPane2.addTab("Update admins", jTabbedPane4);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -304,13 +328,13 @@ public class MainUI extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 939, Short.MAX_VALUE))
+                .addComponent(jTabbedPane2))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 657, Short.MAX_VALUE))
+                .addComponent(jTabbedPane2))
         );
 
         jTabbedPane1.addTab("ADMIN PORTAL", new javax.swing.ImageIcon(getClass().getResource("/icons/engineer.png")), jPanel2); // NOI18N
@@ -614,6 +638,10 @@ public class MainUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -659,6 +687,7 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JPanel carPanel;
     private javax.swing.JTable carTable;
     private javax.swing.JButton jButton1;
+    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -688,6 +717,7 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
+    private javax.swing.JTabbedPane jTabbedPane4;
     private javax.swing.JButton loginConfirm;
     private javax.swing.JPasswordField loginPassword;
     private javax.swing.JTextField loginUsername;
