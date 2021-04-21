@@ -27,7 +27,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,-24,0,0,5,41"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,-67,0,0,5,13"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
@@ -92,14 +92,14 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jTabbedPane1" min="-2" pref="1276" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="28" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="54" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                       <Component id="jTabbedPane1" min="-2" pref="657" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
@@ -581,17 +581,14 @@
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jTabbedPane3" min="-2" pref="980" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="17" max="32767" attributes="0"/>
+                                      <Component id="jTabbedPane3" max="32767" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jTabbedPane3" min="-2" pref="606" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="18" max="32767" attributes="0"/>
-                                  </Group>
+                                  <Component id="jTabbedPane3" alignment="1" pref="624" max="32767" attributes="0"/>
                               </Group>
                             </DimensionLayout>
                           </Layout>
@@ -677,10 +674,7 @@
                                                           <Component id="AddCarMake" alignment="3" max="32767" attributes="0"/>
                                                       </Group>
                                                   </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="jScrollPane5" min="-2" pref="92" max="-2" attributes="0"/>
-                                                      <EmptySpace min="0" pref="-10" max="32767" attributes="0"/>
-                                                  </Group>
+                                                  <Component id="jScrollPane5" alignment="0" min="-2" pref="92" max="-2" attributes="0"/>
                                               </Group>
                                               <EmptySpace type="separate" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="3" attributes="0">
@@ -720,7 +714,7 @@
                                               </Group>
                                               <EmptySpace type="separate" max="-2" attributes="0"/>
                                               <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace pref="39" max="32767" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
                                           </Group>
                                       </Group>
                                     </DimensionLayout>
@@ -964,24 +958,24 @@
                                   <Layout>
                                     <DimensionLayout dim="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <EmptySpace min="0" pref="967" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <EmptySpace max="32767" attributes="0"/>
-                                                  <Component id="jPanel12" min="-2" pref="947" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  <Component id="jPanel12" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
                                     </DimensionLayout>
                                     <DimensionLayout dim="1">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <EmptySpace min="0" pref="502" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="jPanel12" min="-2" pref="480" max="-2" attributes="0"/>
-                                                  <EmptySpace max="32767" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  <Component id="jPanel12" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -1021,7 +1015,7 @@
                                                               <Component id="AddVanModel" alignment="0" max="32767" attributes="0"/>
                                                               <Component id="AddVanMake" alignment="0" max="32767" attributes="0"/>
                                                               <Component id="AddVanID" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddVanPrice" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarPrice1" alignment="0" max="32767" attributes="0"/>
                                                               <Component id="AddVanFuelType" alignment="0" max="32767" attributes="0"/>
                                                               <Component id="AddVanEngineSize" alignment="0" max="32767" attributes="0"/>
                                                               <Component id="AddVanDoors" alignment="0" max="32767" attributes="0"/>
@@ -1053,10 +1047,7 @@
                                                               <Component id="AddVanMake" alignment="3" max="32767" attributes="0"/>
                                                           </Group>
                                                       </Group>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <Component id="jScrollPane6" min="-2" pref="92" max="-2" attributes="0"/>
-                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                                      </Group>
+                                                      <Component id="jScrollPane6" alignment="0" min="-2" pref="92" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
@@ -1067,7 +1058,7 @@
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
                                                       <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="AddVanColor" alignment="3" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="AddVanColor" alignment="3" pref="30" max="32767" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
@@ -1077,7 +1068,7 @@
                                                   <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                                       <Component id="jLabel31" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="AddVanPrice" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="AddCarPrice1" alignment="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
@@ -1180,9 +1171,6 @@
                                             </Property>
                                             <Property name="text" type="java.lang.String" value=" "/>
                                           </Properties>
-                                          <Events>
-                                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddVanColorActionPerformed"/>
-                                          </Events>
                                         </Component>
                                         <Component class="javax.swing.JLabel" name="jLabel30">
                                           <Properties>
@@ -1222,7 +1210,7 @@
                                             <Property name="text" type="java.lang.String" value="Price"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddVanPrice">
+                                        <Component class="javax.swing.JTextField" name="AddCarPrice1">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1323,9 +1311,6 @@
                                             </Property>
                                             <Property name="text" type="java.lang.String" value="Remove Van"/>
                                           </Properties>
-                                          <Events>
-                                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
-                                          </Events>
                                         </Component>
                                       </SubComponents>
                                     </Container>
@@ -1348,11 +1333,11 @@
                                   <Layout>
                                     <DimensionLayout dim="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <EmptySpace min="0" pref="1005" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
                                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                                  <Component id="jPanel13" min="-2" pref="1005" max="-2" attributes="0"/>
+                                                  <Component id="jPanel13" min="-2" pref="969" max="-2" attributes="0"/>
                                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
@@ -1360,9 +1345,9 @@
                                     </DimensionLayout>
                                     <DimensionLayout dim="1">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <EmptySpace min="0" pref="561" max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
                                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                                   <Component id="jPanel13" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -1385,8 +1370,8 @@
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="jButton6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Group type="102" alignment="0" attributes="0">
+                                                      <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                                                      <Group type="102" attributes="0">
                                                           <Group type="103" groupAlignment="0" attributes="0">
                                                               <Component id="jLabel36" alignment="0" min="-2" max="-2" attributes="0"/>
                                                               <Component id="jLabel35" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -1399,19 +1384,19 @@
                                                           </Group>
                                                           <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                              <Component id="MotorbikeAvailable" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="AddMotorbikeColor" alignment="0" pref="130" max="32767" attributes="0"/>
-                                                              <Component id="AddMotorbikeModel" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddMotorbikeMake" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddMotorbikeID" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddMotorbikePrice" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddMotorbikeFuelType" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddMotorbikeEngineSize" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="CarAvailable2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="AddCarColor2" alignment="0" pref="130" max="32767" attributes="0"/>
+                                                              <Component id="AddCarModel2" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarMake2" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarID1" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarPrice2" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarFuelType2" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarEngineSize2" alignment="0" max="32767" attributes="0"/>
                                                           </Group>
                                                           <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="0" attributes="0">
                                                               <Component id="jScrollPane7" min="-2" pref="589" max="-2" attributes="0"/>
-                                                              <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jButton7" min="-2" pref="240" max="-2" attributes="0"/>
                                                           </Group>
                                                       </Group>
                                                   </Group>
@@ -1427,53 +1412,50 @@
                                                       <Group type="102" alignment="0" attributes="0">
                                                           <Group type="103" groupAlignment="3" attributes="0">
                                                               <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="AddMotorbikeID" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                                              <Component id="AddCarID1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
                                                           </Group>
                                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="3" attributes="0">
                                                               <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="AddMotorbikeMake" alignment="3" max="32767" attributes="0"/>
+                                                              <Component id="AddCarMake2" alignment="3" max="32767" attributes="0"/>
                                                           </Group>
                                                       </Group>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <Component id="jScrollPane7" min="-2" pref="92" max="-2" attributes="0"/>
-                                                          <EmptySpace min="0" pref="-10" max="32767" attributes="0"/>
-                                                      </Group>
+                                                      <Component id="jScrollPane7" alignment="0" min="-2" pref="92" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
                                                       <Component id="jLabel37" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="AddMotorbikeModel" alignment="3" max="32767" attributes="0"/>
+                                                      <Component id="AddCarModel2" alignment="3" max="32767" attributes="0"/>
                                                       <Component id="jButton7" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
                                                       <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="AddMotorbikeColor" alignment="3" pref="30" max="32767" attributes="0"/>
+                                                      <Component id="AddCarColor2" alignment="3" pref="30" max="32767" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
                                                       <Component id="jLabel39" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="MotorbikeAvailable" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="CarAvailable2" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                                       <Component id="jLabel40" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="AddMotorbikePrice" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="AddCarPrice2" alignment="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
                                                       <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="AddMotorbikeFuelType" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                                      <Component id="AddCarFuelType2" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
                                                       <Component id="jLabel42" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="AddMotorbikeEngineSize" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                                      <Component id="AddCarEngineSize2" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Component id="jButton6" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace pref="59" max="32767" attributes="0"/>
+                                                  <EmptySpace pref="60" max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
                                         </DimensionLayout>
@@ -1490,7 +1472,7 @@
                                             <Property name="text" type="java.lang.String" value="Motorbike ID"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddMotorbikeID">
+                                        <Component class="javax.swing.JTextField" name="AddCarID1">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1509,7 +1491,7 @@
                                             <Property name="text" type="java.lang.String" value="Motorbike Make"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddMotorbikeMake">
+                                        <Component class="javax.swing.JTextField" name="AddCarMake2">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1528,7 +1510,7 @@
                                             <Property name="text" type="java.lang.String" value="Motorbike Model"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddMotorbikeModel">
+                                        <Component class="javax.swing.JTextField" name="AddCarModel2">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1550,7 +1532,7 @@
                                             <Property name="text" type="java.lang.String" value="Motorbike Color"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddMotorbikeColor">
+                                        <Component class="javax.swing.JTextField" name="AddCarColor2">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1569,7 +1551,7 @@
                                             <Property name="text" type="java.lang.String" value="Available"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JComboBox" name="MotorbikeAvailable">
+                                        <Component class="javax.swing.JComboBox" name="CarAvailable2">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1596,7 +1578,7 @@
                                             <Property name="text" type="java.lang.String" value="Price"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddMotorbikePrice">
+                                        <Component class="javax.swing.JTextField" name="AddCarPrice2">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1626,7 +1608,7 @@
                                             <Property name="text" type="java.lang.String" value="Engine Size"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddMotorbikeFuelType">
+                                        <Component class="javax.swing.JTextField" name="AddCarFuelType2">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1634,7 +1616,7 @@
                                             <Property name="text" type="java.lang.String" value=" "/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddMotorbikeEngineSize">
+                                        <Component class="javax.swing.JTextField" name="AddCarEngineSize2">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1649,9 +1631,6 @@
                                             </Property>
                                             <Property name="text" type="java.lang.String" value="Add Motorbike"/>
                                           </Properties>
-                                          <Events>
-                                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
-                                          </Events>
                                         </Component>
                                         <Container class="javax.swing.JScrollPane" name="jScrollPane7">
                                           <AuxValues>
@@ -1679,12 +1658,9 @@
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
                                             </Property>
-                                            <Property name="text" type="java.lang.String" value="Remove Truck"/>
+                                            <Property name="text" type="java.lang.String" value="Remove Motorbike"/>
                                             <Property name="actionCommand" type="java.lang.String" value="Remove Motorbike"/>
                                           </Properties>
-                                          <Events>
-                                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
-                                          </Events>
                                         </Component>
                                       </SubComponents>
                                     </Container>
@@ -1707,25 +1683,31 @@
                                   <Layout>
                                     <DimensionLayout dim="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="jPanel15" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  <Component id="jPanel14" min="-2" pref="969" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              </Group>
                                           </Group>
                                       </Group>
                                     </DimensionLayout>
                                     <DimensionLayout dim="1">
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace max="32767" attributes="0"/>
-                                              <Component id="jPanel15" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  <Component id="jPanel14" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              </Group>
                                           </Group>
                                       </Group>
                                     </DimensionLayout>
                                   </Layout>
                                   <SubComponents>
-                                    <Container class="javax.swing.JPanel" name="jPanel15">
+                                    <Container class="javax.swing.JPanel" name="jPanel14">
                                       <Properties>
                                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                           <Color blue="66" green="66" red="0" type="rgb"/>
@@ -1736,40 +1718,41 @@
                                         <DimensionLayout dim="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace pref="33" max="32767" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="jButton10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jButton8" alignment="0" min="-2" max="-2" attributes="0"/>
                                                       <Group type="102" alignment="0" attributes="0">
                                                           <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="jLabel53" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel52" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel54" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel55" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel56" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel57" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel58" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel59" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel60" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel44" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel43" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel45" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel46" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel47" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel48" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel49" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel50" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel51" alignment="0" min="-2" max="-2" attributes="0"/>
                                                           </Group>
                                                           <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                              <Component id="TruckAvailable1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="AddTruckColor1" alignment="0" pref="130" max="32767" attributes="0"/>
-                                                              <Component id="AddTruckModel1" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddTruckMake1" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddTruckID1" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddTruckPrice1" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddTruckFuelType1" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddTruckEngineSize1" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="AddTruckTrailerType1" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="CarAvailable3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="AddCarColor3" alignment="0" pref="130" max="32767" attributes="0"/>
+                                                              <Component id="AddCarModel3" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarMake3" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarID2" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarPrice3" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarFuelType3" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarEngineSize3" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="AddCarDoors2" alignment="0" max="32767" attributes="0"/>
                                                           </Group>
                                                           <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="jScrollPane9" alignment="0" min="-2" pref="589" max="-2" attributes="0"/>
-                                                              <Component id="jButton11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jScrollPane8" alignment="0" min="-2" pref="589" max="-2" attributes="0"/>
+                                                              <Component id="jButton9" alignment="0" min="-2" max="-2" attributes="0"/>
                                                           </Group>
                                                       </Group>
                                                   </Group>
+                                                  <EmptySpace max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
                                         </DimensionLayout>
@@ -1780,65 +1763,62 @@
                                                   <Group type="103" groupAlignment="0" attributes="0">
                                                       <Group type="102" alignment="0" attributes="0">
                                                           <Group type="103" groupAlignment="3" attributes="0">
-                                                              <Component id="jLabel52" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="AddTruckID1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                                              <Component id="jLabel43" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="AddCarID2" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
                                                           </Group>
                                                           <EmptySpace type="separate" max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="3" attributes="0">
-                                                              <Component id="jLabel53" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="AddTruckMake1" alignment="3" max="32767" attributes="0"/>
+                                                              <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="AddCarMake3" alignment="3" max="32767" attributes="0"/>
                                                           </Group>
                                                       </Group>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <Component id="jScrollPane9" min="-2" pref="92" max="-2" attributes="0"/>
-                                                          <EmptySpace min="0" pref="-10" max="32767" attributes="0"/>
-                                                      </Group>
+                                                      <Component id="jScrollPane8" alignment="0" min="-2" pref="92" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jLabel54" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="AddTruckModel1" alignment="3" max="32767" attributes="0"/>
-                                                      <Component id="jButton11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="AddCarModel3" alignment="3" max="32767" attributes="0"/>
+                                                      <Component id="jButton9" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jLabel55" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="AddTruckColor1" alignment="3" pref="31" max="32767" attributes="0"/>
+                                                      <Component id="jLabel46" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="AddCarColor3" alignment="3" pref="30" max="32767" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jLabel56" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="TruckAvailable1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabel47" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="CarAvailable3" alignment="3" min="-2" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                      <Component id="jLabel57" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="AddTruckPrice1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel48" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="AddCarPrice3" alignment="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jLabel58" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="AddTruckFuelType1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                                      <Component id="jLabel49" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="AddCarFuelType3" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="3" attributes="0">
-                                                      <Component id="jLabel59" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="AddTruckEngineSize1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                                      <Component id="jLabel50" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="AddCarEngineSize3" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                      <Component id="jLabel60" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="AddTruckTrailerType1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                                      <Component id="jLabel51" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="AddCarDoors2" alignment="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                  <Component id="jButton10" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace pref="51" max="32767" attributes="0"/>
+                                                  <Component id="jButton8" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
                                         </DimensionLayout>
                                       </Layout>
                                       <SubComponents>
-                                        <Component class="javax.swing.JLabel" name="jLabel52">
+                                        <Component class="javax.swing.JLabel" name="jLabel43">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1849,7 +1829,7 @@
                                             <Property name="text" type="java.lang.String" value="Truck ID"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddTruckID1">
+                                        <Component class="javax.swing.JTextField" name="AddCarID2">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1857,7 +1837,7 @@
                                             <Property name="text" type="java.lang.String" value=" "/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JLabel" name="jLabel53">
+                                        <Component class="javax.swing.JLabel" name="jLabel44">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1868,7 +1848,7 @@
                                             <Property name="text" type="java.lang.String" value="Truck Make"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddTruckMake1">
+                                        <Component class="javax.swing.JTextField" name="AddCarMake3">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1876,7 +1856,7 @@
                                             <Property name="text" type="java.lang.String" value=" "/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JLabel" name="jLabel54">
+                                        <Component class="javax.swing.JLabel" name="jLabel45">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1887,7 +1867,7 @@
                                             <Property name="text" type="java.lang.String" value="Truck Model"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddTruckModel1">
+                                        <Component class="javax.swing.JTextField" name="AddCarModel3">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1898,7 +1878,7 @@
                                             <Property name="text" type="java.lang.String" value=" "/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JLabel" name="jLabel55">
+                                        <Component class="javax.swing.JLabel" name="jLabel46">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1909,7 +1889,7 @@
                                             <Property name="text" type="java.lang.String" value="Truck Color"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddTruckColor1">
+                                        <Component class="javax.swing.JTextField" name="AddCarColor3">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1917,7 +1897,7 @@
                                             <Property name="text" type="java.lang.String" value=" "/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JLabel" name="jLabel56">
+                                        <Component class="javax.swing.JLabel" name="jLabel47">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1928,7 +1908,7 @@
                                             <Property name="text" type="java.lang.String" value="Available"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JComboBox" name="TruckAvailable1">
+                                        <Component class="javax.swing.JComboBox" name="CarAvailable3">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1944,7 +1924,7 @@
                                             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                                           </AuxValues>
                                         </Component>
-                                        <Component class="javax.swing.JLabel" name="jLabel57">
+                                        <Component class="javax.swing.JLabel" name="jLabel48">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1955,7 +1935,7 @@
                                             <Property name="text" type="java.lang.String" value="Price"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddTruckPrice1">
+                                        <Component class="javax.swing.JTextField" name="AddCarPrice3">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1963,7 +1943,7 @@
                                             <Property name="text" type="java.lang.String" value=" "/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JLabel" name="jLabel58">
+                                        <Component class="javax.swing.JLabel" name="jLabel49">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1974,7 +1954,7 @@
                                             <Property name="text" type="java.lang.String" value="Fuel Type"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JLabel" name="jLabel59">
+                                        <Component class="javax.swing.JLabel" name="jLabel50">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1985,7 +1965,7 @@
                                             <Property name="text" type="java.lang.String" value="Engine Size"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JLabel" name="jLabel60">
+                                        <Component class="javax.swing.JLabel" name="jLabel51">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -1993,10 +1973,10 @@
                                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                               <Color blue="ff" green="ff" red="ff" type="rgb"/>
                                             </Property>
-                                            <Property name="text" type="java.lang.String" value="Trailer Type "/>
+                                            <Property name="text" type="java.lang.String" value="Trailer Type"/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddTruckFuelType1">
+                                        <Component class="javax.swing.JTextField" name="AddCarFuelType3">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -2004,7 +1984,7 @@
                                             <Property name="text" type="java.lang.String" value=" "/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddTruckEngineSize1">
+                                        <Component class="javax.swing.JTextField" name="AddCarEngineSize3">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -2012,7 +1992,7 @@
                                             <Property name="text" type="java.lang.String" value=" "/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JTextField" name="AddTruckTrailerType1">
+                                        <Component class="javax.swing.JTextField" name="AddCarDoors2">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -2020,7 +2000,7 @@
                                             <Property name="text" type="java.lang.String" value=" "/>
                                           </Properties>
                                         </Component>
-                                        <Component class="javax.swing.JButton" name="jButton10">
+                                        <Component class="javax.swing.JButton" name="jButton8">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -2028,14 +2008,14 @@
                                             <Property name="text" type="java.lang.String" value="Add Truck"/>
                                           </Properties>
                                         </Component>
-                                        <Container class="javax.swing.JScrollPane" name="jScrollPane9">
+                                        <Container class="javax.swing.JScrollPane" name="jScrollPane8">
                                           <AuxValues>
                                             <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
                                           </AuxValues>
 
                                           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                                           <SubComponents>
-                                            <Component class="javax.swing.JTable" name="jTable5">
+                                            <Component class="javax.swing.JTable" name="jTable4">
                                               <Properties>
                                                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                                   <Table columnCount="4" rowCount="4">
@@ -2049,7 +2029,7 @@
                                             </Component>
                                           </SubComponents>
                                         </Container>
-                                        <Component class="javax.swing.JButton" name="jButton11">
+                                        <Component class="javax.swing.JButton" name="jButton9">
                                           <Properties>
                                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                                               <Font name="Tahoma" size="24" style="0"/>
@@ -2096,7 +2076,7 @@
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jScrollPane1" pref="1284" max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" pref="1256" max="32767" attributes="0"/>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
@@ -2189,7 +2169,7 @@
                               <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <Component id="jScrollPane1" pref="470" max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
                       <EmptySpace min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -2370,7 +2350,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane2" pref="1284" max="32767" attributes="0"/>
+                      <Component id="jScrollPane2" pref="1256" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -2379,7 +2359,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
-                      <Component id="jScrollPane2" pref="540" max="32767" attributes="0"/>
+                      <Component id="jScrollPane2" pref="497" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -2431,7 +2411,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane3" pref="1284" max="32767" attributes="0"/>
+                      <Component id="jScrollPane3" pref="1256" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -2440,7 +2420,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
-                      <Component id="jScrollPane3" pref="540" max="32767" attributes="0"/>
+                      <Component id="jScrollPane3" pref="497" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -2492,7 +2472,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jScrollPane4" pref="1284" max="32767" attributes="0"/>
+                      <Component id="jScrollPane4" pref="1256" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -2501,7 +2481,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="171" max="-2" attributes="0"/>
-                      <Component id="jScrollPane4" pref="540" max="32767" attributes="0"/>
+                      <Component id="jScrollPane4" pref="497" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
