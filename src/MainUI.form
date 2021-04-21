@@ -99,7 +99,7 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="jTabbedPane1" pref="836" max="32767" attributes="0"/>
+                      <Component id="jTabbedPane1" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -2324,8 +2324,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <EmptySpace min="0" pref="1364" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="44" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
                           <Component id="carPanel2" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="44" max="32767" attributes="0"/>
                       </Group>
@@ -2336,10 +2335,9 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <EmptySpace min="0" pref="847" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
                           <Component id="carPanel2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="84" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -2359,23 +2357,23 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jScrollPane10" alignment="0" pref="1256" max="32767" attributes="0"/>
+                              <Component id="jScrollPane10" alignment="0" max="32767" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Group type="102" alignment="1" attributes="0">
                                           <Component id="jLabel60" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                                          <Component id="CarUserID2" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="VanUserID" min="-2" pref="100" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="jLabel61" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="CarVehicleID2" max="32767" attributes="0"/>
+                                          <Component id="VanVehicleID" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="jLabel59" min="-2" pref="122" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="CarBranchID2" max="32767" attributes="0"/>
+                                          <Component id="VanBranchID" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
@@ -2387,8 +2385,8 @@
                                           </Group>
                                           <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="CarPickUpLocation2" alignment="0" pref="100" max="32767" attributes="0"/>
-                                              <Component id="CarDropOffLocation2" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="VanPickUpLocation" alignment="0" pref="100" max="32767" attributes="0"/>
+                                              <Component id="VanDropOffLocation" alignment="0" max="32767" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="172" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
@@ -2397,13 +2395,13 @@
                                           </Group>
                                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="CarEndDate2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="CarStartDate2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="VanEndDate" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="VanStartDate" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Component id="jButton11" alignment="1" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <EmptySpace min="0" pref="183" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -2417,42 +2415,42 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel59" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                  <Component id="CarPickUpLocation2" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Component id="VanPickUpLocation" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
                                   <Component id="jLabel62" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="CarBranchID2" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
+                              <Component id="VanBranchID" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                   <Component id="jLabel64" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="CarStartDate2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VanStartDate" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="CarDropOffLocation2" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="VanDropOffLocation" alignment="0" pref="0" max="32767" attributes="0"/>
                                       <Component id="jLabel60" alignment="0" max="32767" attributes="0"/>
                                       <Component id="jLabel63" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="CarUserID2" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="VanUserID" alignment="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Component id="jLabel61" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="CarVehicleID2" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="VanVehicleID" alignment="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel65" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="CarEndDate2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="VanEndDate" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="jButton11" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="jScrollPane10" max="32767" attributes="0"/>
+                          <Component id="jScrollPane10" pref="511" max="32767" attributes="0"/>
                           <EmptySpace min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -2513,7 +2511,7 @@
                     <Property name="text" type="java.lang.String" value="Vehicle ID"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarBranchID2">
+                <Component class="javax.swing.JTextField" name="VanBranchID">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -2521,7 +2519,7 @@
                     <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarUserID2">
+                <Component class="javax.swing.JTextField" name="VanUserID">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -2529,7 +2527,7 @@
                     <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarVehicleID2">
+                <Component class="javax.swing.JTextField" name="VanVehicleID">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -2559,7 +2557,7 @@
                     <Property name="text" type="java.lang.String" value="Drop off Location"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarPickUpLocation2">
+                <Component class="javax.swing.JTextField" name="VanPickUpLocation">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -2567,7 +2565,7 @@
                     <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarDropOffLocation2">
+                <Component class="javax.swing.JTextField" name="VanDropOffLocation">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -2597,9 +2595,9 @@
                     <Property name="text" type="java.lang.String" value="End date"/>
                   </Properties>
                 </Component>
-                <Component class="org.jdesktop.swingx.JXDatePicker" name="CarStartDate2">
+                <Component class="org.jdesktop.swingx.JXDatePicker" name="VanStartDate">
                 </Component>
-                <Component class="org.jdesktop.swingx.JXDatePicker" name="CarEndDate2">
+                <Component class="org.jdesktop.swingx.JXDatePicker" name="VanEndDate">
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton11">
                   <Properties>
@@ -2635,8 +2633,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <EmptySpace min="0" pref="1364" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="44" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
                           <Component id="carPanel1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="44" max="32767" attributes="0"/>
                       </Group>
@@ -2647,10 +2644,9 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <EmptySpace min="0" pref="847" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
                           <Component id="carPanel1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="84" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -2670,23 +2666,23 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jScrollPane2" alignment="0" pref="1256" max="32767" attributes="0"/>
+                              <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Group type="102" alignment="1" attributes="0">
                                           <Component id="jLabel53" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                                          <Component id="CarUserID1" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="MotorbikeUserID" min="-2" pref="100" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="jLabel54" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="CarVehicleID1" max="32767" attributes="0"/>
+                                          <Component id="MotorbikeVehicleID" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="jLabel52" min="-2" pref="122" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="CarBranchID1" max="32767" attributes="0"/>
+                                          <Component id="MotorbikeBranchID" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
@@ -2698,8 +2694,8 @@
                                           </Group>
                                           <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="CarPickUpLocation1" alignment="0" pref="100" max="32767" attributes="0"/>
-                                              <Component id="CarDropOffLocation1" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="MotorbikePickUpLocation" alignment="0" pref="100" max="32767" attributes="0"/>
+                                              <Component id="MotorbikeDropOffLocation" alignment="0" max="32767" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="172" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
@@ -2708,13 +2704,13 @@
                                           </Group>
                                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="CarEndDate1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="CarStartDate1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="MotorbikeEndDate" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="MotorbikeStartDate" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Component id="jButton10" alignment="1" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <EmptySpace min="0" pref="183" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -2728,42 +2724,42 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel52" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                  <Component id="CarPickUpLocation1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Component id="MotorbikePickUpLocation" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
                                   <Component id="jLabel55" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="CarBranchID1" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
+                              <Component id="MotorbikeBranchID" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                   <Component id="jLabel57" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="CarStartDate1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="MotorbikeStartDate" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="CarDropOffLocation1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="MotorbikeDropOffLocation" alignment="0" pref="0" max="32767" attributes="0"/>
                                       <Component id="jLabel53" alignment="0" max="32767" attributes="0"/>
                                       <Component id="jLabel56" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="CarUserID1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="MotorbikeUserID" alignment="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Component id="jLabel54" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="CarVehicleID1" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="MotorbikeVehicleID" alignment="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel58" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="CarEndDate1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MotorbikeEndDate" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="jButton10" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="jScrollPane2" max="32767" attributes="0"/>
+                          <Component id="jScrollPane2" pref="511" max="32767" attributes="0"/>
                           <EmptySpace min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -2824,7 +2820,7 @@
                     <Property name="text" type="java.lang.String" value="Vehicle ID"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarBranchID1">
+                <Component class="javax.swing.JTextField" name="MotorbikeBranchID">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -2832,7 +2828,7 @@
                     <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarUserID1">
+                <Component class="javax.swing.JTextField" name="MotorbikeUserID">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -2840,7 +2836,7 @@
                     <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarVehicleID1">
+                <Component class="javax.swing.JTextField" name="MotorbikeVehicleID">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -2870,7 +2866,7 @@
                     <Property name="text" type="java.lang.String" value="Drop off Location"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarPickUpLocation1">
+                <Component class="javax.swing.JTextField" name="MotorbikePickUpLocation">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -2878,7 +2874,7 @@
                     <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarDropOffLocation1">
+                <Component class="javax.swing.JTextField" name="MotorbikeDropOffLocation">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -2908,9 +2904,9 @@
                     <Property name="text" type="java.lang.String" value="End date"/>
                   </Properties>
                 </Component>
-                <Component class="org.jdesktop.swingx.JXDatePicker" name="CarStartDate1">
+                <Component class="org.jdesktop.swingx.JXDatePicker" name="MotorbikeStartDate">
                 </Component>
-                <Component class="org.jdesktop.swingx.JXDatePicker" name="CarEndDate1">
+                <Component class="org.jdesktop.swingx.JXDatePicker" name="MotorbikeEndDate">
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton10">
                   <Properties>
@@ -2946,8 +2942,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <EmptySpace min="0" pref="1364" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="44" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
                           <Component id="carPanel3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="44" max="32767" attributes="0"/>
                       </Group>
@@ -2958,10 +2953,9 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <EmptySpace min="0" pref="847" max="32767" attributes="0"/>
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
                           <Component id="carPanel3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="84" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -2981,23 +2975,23 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jScrollPane3" alignment="0" pref="1256" max="32767" attributes="0"/>
+                              <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Group type="102" alignment="1" attributes="0">
                                           <Component id="jLabel67" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
-                                          <Component id="CarUserID3" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="TruckUserID" min="-2" pref="100" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="jLabel68" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="CarVehicleID3" max="32767" attributes="0"/>
+                                          <Component id="TruckVehicleID" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="jLabel66" min="-2" pref="122" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="CarBranchID3" max="32767" attributes="0"/>
+                                          <Component id="TruckBranchID" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
@@ -3009,8 +3003,8 @@
                                           </Group>
                                           <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                              <Component id="CarPickUpLocation3" alignment="0" pref="100" max="32767" attributes="0"/>
-                                              <Component id="CarDropOffLocation3" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="TruckPickUpLocation" alignment="0" pref="100" max="32767" attributes="0"/>
+                                              <Component id="TruckDropOffLocation" alignment="0" max="32767" attributes="0"/>
                                           </Group>
                                           <EmptySpace min="-2" pref="172" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
@@ -3019,13 +3013,13 @@
                                           </Group>
                                           <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="CarEndDate3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="CarStartDate3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="TruckEndDate" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="TruckStartDate" alignment="0" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Component id="jButton12" alignment="1" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <EmptySpace min="0" pref="183" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -3039,42 +3033,42 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel66" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                  <Component id="CarPickUpLocation3" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Component id="TruckPickUpLocation" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
                                   <Component id="jLabel69" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="CarBranchID3" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
+                              <Component id="TruckBranchID" alignment="0" min="-2" pref="29" max="-2" attributes="0"/>
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                   <Component id="jLabel71" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="CarStartDate3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TruckStartDate" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="CarDropOffLocation3" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="TruckDropOffLocation" alignment="0" pref="0" max="32767" attributes="0"/>
                                       <Component id="jLabel67" alignment="0" max="32767" attributes="0"/>
                                       <Component id="jLabel70" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="CarUserID3" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="TruckUserID" alignment="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Component id="jLabel68" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="CarVehicleID3" alignment="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="TruckVehicleID" alignment="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel72" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="CarEndDate3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TruckEndDate" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="jButton12" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="jScrollPane3" max="32767" attributes="0"/>
+                          <Component id="jScrollPane3" pref="511" max="32767" attributes="0"/>
                           <EmptySpace min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -3135,7 +3129,7 @@
                     <Property name="text" type="java.lang.String" value="Vehicle ID"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarBranchID3">
+                <Component class="javax.swing.JTextField" name="TruckBranchID">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -3143,7 +3137,7 @@
                     <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarUserID3">
+                <Component class="javax.swing.JTextField" name="TruckUserID">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -3151,7 +3145,7 @@
                     <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarVehicleID3">
+                <Component class="javax.swing.JTextField" name="TruckVehicleID">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -3181,7 +3175,7 @@
                     <Property name="text" type="java.lang.String" value="Drop off Location"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarPickUpLocation3">
+                <Component class="javax.swing.JTextField" name="TruckPickUpLocation">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -3189,7 +3183,7 @@
                     <Property name="text" type="java.lang.String" value=" "/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JTextField" name="CarDropOffLocation3">
+                <Component class="javax.swing.JTextField" name="TruckDropOffLocation">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="24" style="0"/>
@@ -3219,9 +3213,9 @@
                     <Property name="text" type="java.lang.String" value="End date"/>
                   </Properties>
                 </Component>
-                <Component class="org.jdesktop.swingx.JXDatePicker" name="CarStartDate3">
+                <Component class="org.jdesktop.swingx.JXDatePicker" name="TruckStartDate">
                 </Component>
-                <Component class="org.jdesktop.swingx.JXDatePicker" name="CarEndDate3">
+                <Component class="org.jdesktop.swingx.JXDatePicker" name="TruckEndDate">
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton12">
                   <Properties>
