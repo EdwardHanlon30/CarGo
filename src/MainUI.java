@@ -1,3 +1,10 @@
+
+import java.text.ParseException;
+import java.util.Date;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import static org.hsqldb.lib.StringUtil.isEmpty;
+
 /*
  * Author: Edward Hanlon & Muharram Bensaad
  * Date: 
@@ -11,7 +18,7 @@ public class MainUI extends javax.swing.JFrame {
     public MainUI() {
         initComponents();
     }
-
+    DataHandler data = new DataHandler();
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -39,12 +46,13 @@ public class MainUI extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         regSecurityCode = new javax.swing.JTextField();
-        regUserNmae = new javax.swing.JTextField();
+        regUserName = new javax.swing.JTextField();
         regEmail = new javax.swing.JTextField();
         regPassword = new javax.swing.JPasswordField();
         regCardNumber = new javax.swing.JTextField();
-        regExpiryNumber = new javax.swing.JTextField();
         regConfirm = new javax.swing.JButton();
+        regNotification = new javax.swing.JLabel();
+        regExpire = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jTabbedPane2 = new javax.swing.JTabbedPane();
@@ -330,7 +338,7 @@ public class MainUI extends javax.swing.JFrame {
 
         regSecurityCode.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
 
-        regUserNmae.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        regUserName.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
 
         regEmail.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
 
@@ -338,11 +346,18 @@ public class MainUI extends javax.swing.JFrame {
 
         regCardNumber.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
 
-        regExpiryNumber.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-
         regConfirm.setBackground(new java.awt.Color(0, 102, 102));
         regConfirm.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         regConfirm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/register.png"))); // NOI18N
+        regConfirm.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                regConfirmActionPerformed(evt);
+            }
+        });
+
+        regNotification.setForeground(new java.awt.Color(51, 255, 0));
+
+        regExpire.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -350,8 +365,11 @@ public class MainUI extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addContainerGap(335, Short.MAX_VALUE)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(regConfirm)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(regConfirm)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(regNotification, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel4)
@@ -361,14 +379,13 @@ public class MainUI extends javax.swing.JFrame {
                             .addComponent(jLabel8)
                             .addComponent(jLabel6))
                         .addGap(111, 111, 111)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(regExpiryNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(regEmail)
-                                .addComponent(regUserNmae)
-                                .addComponent(regPassword)
-                                .addComponent(regCardNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(regSecurityCode, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(regEmail)
+                            .addComponent(regUserName)
+                            .addComponent(regPassword)
+                            .addComponent(regCardNumber, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
+                            .addComponent(regSecurityCode, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(regExpire))))
                 .addGap(364, 364, 364))
         );
         jPanel4Layout.setVerticalGroup(
@@ -377,7 +394,7 @@ public class MainUI extends javax.swing.JFrame {
                 .addGap(96, 96, 96)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel1)
-                    .addComponent(regUserNmae, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(regUserName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(21, 21, 21)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel4)
@@ -392,17 +409,19 @@ public class MainUI extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel6)
                     .addComponent(regCardNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(21, 21, 21)
+                .addGap(35, 35, 35)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel7)
-                    .addComponent(regExpiryNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(regExpire, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel8)
                     .addComponent(regSecurityCode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(46, 46, 46)
-                .addComponent(regConfirm)
-                .addContainerGap(324, Short.MAX_VALUE))
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(regConfirm)
+                    .addComponent(regNotification, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(316, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("REGISTER", new javax.swing.ImageIcon(getClass().getResource("/icons/registration-form.png")), jPanel4); // NOI18N
@@ -1905,6 +1924,46 @@ public class MainUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void regConfirmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regConfirmActionPerformed
+        // TODO add your handling code here:
+        String name = regUserName.getText();
+        String pass = String.valueOf(regPassword.getPassword());
+        String email = regEmail.getText();
+        String card = regCardNumber.getText();
+        String expire = regExpire.getText();
+        String Scode = regSecurityCode.getText();
+        if(!(isEmpty(name) || isEmpty(pass) || isEmpty(email)
+                || isEmpty(card) || isEmpty(Scode)
+                || expire == null))         
+        {
+            try 
+            {
+                if(data.registerUser(name, pass, email, card,
+                        expire, Scode))
+                {
+                    data.success = true;     
+                    regNotification.setText("Registration was Sucessfull");
+                    regUserName.setText("");
+                    regPassword.setText("");
+                    regEmail.setText("");
+                    regCardNumber.setText("");
+                    regExpire.setText("");
+                    regSecurityCode.setText("");  
+                }
+            } catch (ParseException ex) 
+            {
+                Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
+            }
+
+        } 
+        else 
+        {
+            data.success = false;
+            regNotification.setText("Registration Failed!!");
+        }
+
+    }//GEN-LAST:event_regConfirmActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -2138,10 +2197,11 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JTextField regCardNumber;
     private javax.swing.JButton regConfirm;
     private javax.swing.JTextField regEmail;
-    private javax.swing.JTextField regExpiryNumber;
+    private javax.swing.JTextField regExpire;
+    private javax.swing.JLabel regNotification;
     private javax.swing.JPasswordField regPassword;
     private javax.swing.JTextField regSecurityCode;
-    private javax.swing.JTextField regUserNmae;
+    private javax.swing.JTextField regUserName;
     private javax.swing.JPanel truckPanel;
     private javax.swing.JPanel userPanel;
     private javax.swing.JPanel vanPanel;
