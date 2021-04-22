@@ -61,103 +61,101 @@ public class MainUI extends javax.swing.JFrame {
         jPanel5 = new javax.swing.JPanel();
         jTabbedPane3 = new javax.swing.JTabbedPane();
         jPanel8 = new javax.swing.JPanel();
-        jScrollPane12 = new javax.swing.JScrollPane();
-        jPanel15 = new javax.swing.JPanel();
-        jLabel73 = new javax.swing.JLabel();
-        AddVanID1 = new javax.swing.JTextField();
-        jLabel74 = new javax.swing.JLabel();
-        AddVanMake1 = new javax.swing.JTextField();
-        jLabel75 = new javax.swing.JLabel();
-        AddVanModel1 = new javax.swing.JTextField();
-        jLabel76 = new javax.swing.JLabel();
-        AddVanColor1 = new javax.swing.JTextField();
-        jLabel77 = new javax.swing.JLabel();
-        VanAvailable1 = new javax.swing.JComboBox<>();
-        jLabel78 = new javax.swing.JLabel();
-        AddCarPrice4 = new javax.swing.JTextField();
-        jLabel79 = new javax.swing.JLabel();
-        jLabel80 = new javax.swing.JLabel();
-        jLabel81 = new javax.swing.JLabel();
-        AddVanFuelType1 = new javax.swing.JTextField();
-        AddVanEngineSize1 = new javax.swing.JTextField();
-        AddVanDoors1 = new javax.swing.JTextField();
-        jButton13 = new javax.swing.JButton();
-        jScrollPane9 = new javax.swing.JScrollPane();
-        jTable5 = new javax.swing.JTable();
-        jButton14 = new javax.swing.JButton();
+        jScrollPane19 = new javax.swing.JScrollPane();
+        jPanel21 = new javax.swing.JPanel();
+        jLabel127 = new javax.swing.JLabel();
+        AddCarID = new javax.swing.JTextField();
+        jLabel128 = new javax.swing.JLabel();
+        AddCarMake = new javax.swing.JTextField();
+        jLabel129 = new javax.swing.JLabel();
+        AddCarModel = new javax.swing.JTextField();
+        jLabel130 = new javax.swing.JLabel();
+        AddCarColor = new javax.swing.JTextField();
+        jLabel131 = new javax.swing.JLabel();
+        CarAvailable = new javax.swing.JComboBox<>();
+        jLabel132 = new javax.swing.JLabel();
+        AddCarPrice = new javax.swing.JTextField();
+        jLabel133 = new javax.swing.JLabel();
+        jLabel134 = new javax.swing.JLabel();
+        jLabel135 = new javax.swing.JLabel();
+        AddCarFuelType = new javax.swing.JTextField();
+        AddCarEngineSize = new javax.swing.JTextField();
+        AddCarDoors = new javax.swing.JTextField();
+        jButton25 = new javax.swing.JButton();
+        jScrollPane20 = new javax.swing.JScrollPane();
+        jTable11 = new javax.swing.JTable();
+        jButton26 = new javax.swing.JButton();
         jPanel9 = new javax.swing.JPanel();
-        jScrollPane13 = new javax.swing.JScrollPane();
+        jScrollPane14 = new javax.swing.JScrollPane();
         jPanel17 = new javax.swing.JPanel();
         jLabel91 = new javax.swing.JLabel();
-        AddVanID3 = new javax.swing.JTextField();
+        AddVanID = new javax.swing.JTextField();
         jLabel92 = new javax.swing.JLabel();
-        AddVanMake3 = new javax.swing.JTextField();
+        AddVanMake = new javax.swing.JTextField();
         jLabel93 = new javax.swing.JLabel();
-        AddVanModel3 = new javax.swing.JTextField();
+        AddVanModel = new javax.swing.JTextField();
         jLabel94 = new javax.swing.JLabel();
-        AddVanColor3 = new javax.swing.JTextField();
+        AddVanColor = new javax.swing.JTextField();
         jLabel95 = new javax.swing.JLabel();
-        VanAvailable3 = new javax.swing.JComboBox<>();
+        VanAvailable = new javax.swing.JComboBox<>();
         jLabel96 = new javax.swing.JLabel();
-        AddCarPrice6 = new javax.swing.JTextField();
+        AddVanPrice = new javax.swing.JTextField();
         jLabel97 = new javax.swing.JLabel();
         jLabel98 = new javax.swing.JLabel();
         jLabel99 = new javax.swing.JLabel();
-        AddVanFuelType3 = new javax.swing.JTextField();
-        AddVanEngineSize3 = new javax.swing.JTextField();
-        AddVanDoors3 = new javax.swing.JTextField();
+        AddVanFuelType = new javax.swing.JTextField();
+        AddVanEngineSize = new javax.swing.JTextField();
+        AddVanDoors = new javax.swing.JTextField();
         jButton17 = new javax.swing.JButton();
-        jScrollPane14 = new javax.swing.JScrollPane();
+        jScrollPane16 = new javax.swing.JScrollPane();
         jTable7 = new javax.swing.JTable();
         jButton18 = new javax.swing.JButton();
         jPanel10 = new javax.swing.JPanel();
-        jScrollPane15 = new javax.swing.JScrollPane();
+        jScrollPane18 = new javax.swing.JScrollPane();
         jPanel18 = new javax.swing.JPanel();
         jLabel100 = new javax.swing.JLabel();
-        AddVanID4 = new javax.swing.JTextField();
+        AddMotorbikeID = new javax.swing.JTextField();
         jLabel101 = new javax.swing.JLabel();
-        AddVanMake4 = new javax.swing.JTextField();
+        AddMotorbikeMake = new javax.swing.JTextField();
         jLabel102 = new javax.swing.JLabel();
-        AddVanModel4 = new javax.swing.JTextField();
+        AddMotorbikeModel = new javax.swing.JTextField();
         jLabel103 = new javax.swing.JLabel();
-        AddVanColor4 = new javax.swing.JTextField();
+        AddMotorbikeColor = new javax.swing.JTextField();
         jLabel104 = new javax.swing.JLabel();
-        VanAvailable4 = new javax.swing.JComboBox<>();
+        MotorbikeAvailable = new javax.swing.JComboBox<>();
         jLabel105 = new javax.swing.JLabel();
-        AddCarPrice7 = new javax.swing.JTextField();
+        AddMotorbikePrice = new javax.swing.JTextField();
         jLabel106 = new javax.swing.JLabel();
         jLabel107 = new javax.swing.JLabel();
-        jLabel108 = new javax.swing.JLabel();
-        AddVanFuelType4 = new javax.swing.JTextField();
-        AddVanEngineSize4 = new javax.swing.JTextField();
-        AddVanDoors4 = new javax.swing.JTextField();
+        AddMotorbikeFuelType = new javax.swing.JTextField();
+        AddMotorbikeEngineSize = new javax.swing.JTextField();
         jButton19 = new javax.swing.JButton();
-        jScrollPane16 = new javax.swing.JScrollPane();
+        jScrollPane21 = new javax.swing.JScrollPane();
         jTable8 = new javax.swing.JTable();
         jButton20 = new javax.swing.JButton();
         jPanel11 = new javax.swing.JPanel();
-        jScrollPane17 = new javax.swing.JScrollPane();
+        jScrollPane22 = new javax.swing.JScrollPane();
         jPanel19 = new javax.swing.JPanel();
         jLabel109 = new javax.swing.JLabel();
-        AddVanID5 = new javax.swing.JTextField();
+        AddTruckID = new javax.swing.JTextField();
         jLabel110 = new javax.swing.JLabel();
-        AddVanMake5 = new javax.swing.JTextField();
+        AddTruckMake = new javax.swing.JTextField();
         jLabel111 = new javax.swing.JLabel();
-        AddVanModel5 = new javax.swing.JTextField();
+        AddTruckModel = new javax.swing.JTextField();
         jLabel112 = new javax.swing.JLabel();
-        AddVanColor5 = new javax.swing.JTextField();
+        AddTruckColor = new javax.swing.JTextField();
         jLabel113 = new javax.swing.JLabel();
-        VanAvailable5 = new javax.swing.JComboBox<>();
+        TruckAvailable = new javax.swing.JComboBox<>();
         jLabel114 = new javax.swing.JLabel();
-        AddCarPrice8 = new javax.swing.JTextField();
+        AddTruckPrice = new javax.swing.JTextField();
         jLabel115 = new javax.swing.JLabel();
         jLabel116 = new javax.swing.JLabel();
         jLabel117 = new javax.swing.JLabel();
-        AddVanFuelType5 = new javax.swing.JTextField();
-        AddVanEngineSize5 = new javax.swing.JTextField();
-        AddVanDoors5 = new javax.swing.JTextField();
+        AddTruckFuelType = new javax.swing.JTextField();
+        AddTruckEngineSize = new javax.swing.JTextField();
+        AddTruckDoors = new javax.swing.JTextField();
         jButton21 = new javax.swing.JButton();
-        jScrollPane18 = new javax.swing.JScrollPane();
+        jScrollPane23 = new javax.swing.JScrollPane();
         jTable9 = new javax.swing.JTable();
         jButton22 = new javax.swing.JButton();
         carPanel = new javax.swing.JPanel();
@@ -280,7 +278,7 @@ public class MainUI extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(400, Short.MAX_VALUE)
+                .addContainerGap(196, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel2)
@@ -304,7 +302,7 @@ public class MainUI extends javax.swing.JFrame {
                     .addComponent(loginPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(58, 58, 58)
                 .addComponent(loginConfirm)
-                .addContainerGap(391, Short.MAX_VALUE))
+                .addContainerGap(402, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("LOGIN", new javax.swing.ImageIcon(getClass().getResource("/icons/enter.png")), jPanel3); // NOI18N
@@ -364,7 +362,7 @@ public class MainUI extends javax.swing.JFrame {
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addContainerGap(335, Short.MAX_VALUE)
+                .addContainerGap(131, Short.MAX_VALUE)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(regConfirm)
@@ -421,7 +419,7 @@ public class MainUI extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(regConfirm)
                     .addComponent(regNotification, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(316, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("REGISTER", new javax.swing.ImageIcon(getClass().getResource("/icons/registration-form.png")), jPanel4); // NOI18N
@@ -430,11 +428,11 @@ public class MainUI extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1186, Short.MAX_VALUE)
+            .addGap(0, 982, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 831, Short.MAX_VALUE)
+            .addGap(0, 842, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("USER ACCOUNT", new javax.swing.ImageIcon(getClass().getResource("/icons/management.png")), jPanel1); // NOI18N
@@ -447,7 +445,7 @@ public class MainUI extends javax.swing.JFrame {
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1181, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -462,7 +460,7 @@ public class MainUI extends javax.swing.JFrame {
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1181, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -478,76 +476,76 @@ public class MainUI extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(0, 102, 102));
         jPanel8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
-        jPanel15.setBackground(new java.awt.Color(0, 102, 102));
+        jPanel21.setBackground(new java.awt.Color(0, 102, 102));
 
-        jLabel73.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel73.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel73.setText("Car ID");
+        jLabel127.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel127.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel127.setText("Car ID");
 
-        AddVanID1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanID1.setText(" ");
+        AddCarID.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddCarID.setText(" ");
 
-        jLabel74.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel74.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel74.setText("Car Make");
+        jLabel128.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel128.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel128.setText("Car Make");
 
-        AddVanMake1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanMake1.setText(" ");
+        AddCarMake.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddCarMake.setText(" ");
 
-        jLabel75.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel75.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel75.setText("Car Model");
+        jLabel129.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel129.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel129.setText("Car Model");
 
-        AddVanModel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanModel1.setForeground(new java.awt.Color(255, 255, 255));
-        AddVanModel1.setText(" ");
+        AddCarModel.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddCarModel.setForeground(new java.awt.Color(255, 255, 255));
+        AddCarModel.setText(" ");
 
-        jLabel76.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel76.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel76.setText("Car Color");
+        jLabel130.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel130.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel130.setText("Car Color");
 
-        AddVanColor1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanColor1.setText(" ");
+        AddCarColor.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddCarColor.setText(" ");
 
-        jLabel77.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel77.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel77.setText("Available");
+        jLabel131.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel131.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel131.setText("Available");
 
-        VanAvailable1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        VanAvailable1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+        CarAvailable.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        CarAvailable.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
 
-        jLabel78.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel78.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel78.setText("Price");
+        jLabel132.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel132.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel132.setText("Price");
 
-        AddCarPrice4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddCarPrice4.setText(" ");
+        AddCarPrice.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddCarPrice.setText(" ");
 
-        jLabel79.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel79.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel79.setText("Fuel Type");
+        jLabel133.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel133.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel133.setText("Fuel Type");
 
-        jLabel80.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel80.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel80.setText("Engine Size");
+        jLabel134.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel134.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel134.setText("Engine Size");
 
-        jLabel81.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel81.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel81.setText("Car Doors");
+        jLabel135.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel135.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel135.setText("Car Doors");
 
-        AddVanFuelType1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanFuelType1.setText(" ");
+        AddCarFuelType.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddCarFuelType.setText(" ");
 
-        AddVanEngineSize1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanEngineSize1.setText(" ");
+        AddCarEngineSize.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddCarEngineSize.setText(" ");
 
-        AddVanDoors1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanDoors1.setText(" ");
+        AddCarDoors.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddCarDoors.setText(" ");
 
-        jButton13.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jButton13.setText("Add Car");
+        jButton25.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jButton25.setText("Add Car");
 
-        jTable5.setModel(new javax.swing.table.DefaultTableModel(
+        jTable11.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -558,110 +556,112 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane9.setViewportView(jTable5);
+        jScrollPane20.setViewportView(jTable11);
 
-        jButton14.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jButton14.setText("Remove Car");
+        jButton26.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jButton26.setText("Remove Car");
 
-        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
-        jPanel15.setLayout(jPanel15Layout);
-        jPanel15Layout.setHorizontalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
+        jPanel21.setLayout(jPanel21Layout);
+        jPanel21Layout.setHorizontalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel21Layout.createSequentialGroup()
                 .addGap(43, 43, 43)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton13)
-                    .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel74)
-                            .addComponent(jLabel73)
-                            .addComponent(jLabel75)
-                            .addComponent(jLabel76)
-                            .addComponent(jLabel77)
-                            .addComponent(jLabel78)
-                            .addComponent(jLabel79)
-                            .addComponent(jLabel80)
-                            .addComponent(jLabel81))
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButton25)
+                    .addGroup(jPanel21Layout.createSequentialGroup()
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel128)
+                            .addComponent(jLabel127)
+                            .addComponent(jLabel129)
+                            .addComponent(jLabel130)
+                            .addComponent(jLabel131)
+                            .addComponent(jLabel132)
+                            .addComponent(jLabel133)
+                            .addComponent(jLabel134)
+                            .addComponent(jLabel135))
                         .addGap(46, 46, 46)
-                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(VanAvailable1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AddVanColor1, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
-                            .addComponent(AddVanModel1)
-                            .addComponent(AddVanMake1)
-                            .addComponent(AddVanID1)
-                            .addComponent(AddCarPrice4)
-                            .addComponent(AddVanFuelType1)
-                            .addComponent(AddVanEngineSize1)
-                            .addComponent(AddVanDoors1))
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(CarAvailable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(AddCarColor, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
+                            .addComponent(AddCarModel)
+                            .addComponent(AddCarMake)
+                            .addComponent(AddCarID)
+                            .addComponent(AddCarPrice)
+                            .addComponent(AddCarFuelType)
+                            .addComponent(AddCarEngineSize)
+                            .addComponent(AddCarDoors))
                         .addGap(31, 31, 31)
-                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 589, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton14))))
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton26)
+                            .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 577, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        jPanel15Layout.setVerticalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
-                .addGap(35, 35, 35)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel73)
-                            .addComponent(AddVanID1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+        jPanel21Layout.setVerticalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel21Layout.createSequentialGroup()
+                        .addGap(35, 35, 35)
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel127)
+                            .addComponent(AddCarID, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel74)
-                            .addComponent(AddVanMake1)))
-                    .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel128)
+                            .addComponent(AddCarMake)))
+                    .addGroup(jPanel21Layout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel75)
-                    .addComponent(AddVanModel1)
-                    .addComponent(jButton14))
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel129)
+                    .addComponent(AddCarModel)
+                    .addComponent(jButton26))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel76)
-                    .addComponent(AddVanColor1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, Short.MAX_VALUE))
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel130)
+                    .addComponent(AddCarColor, javax.swing.GroupLayout.PREFERRED_SIZE, 30, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel77)
-                    .addComponent(VanAvailable1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel131)
+                    .addComponent(CarAvailable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(21, 21, 21)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel78, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(AddCarPrice4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel132, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(AddCarPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel79)
-                    .addComponent(AddVanFuelType1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel133)
+                    .addComponent(AddCarFuelType, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel80)
-                    .addComponent(AddVanEngineSize1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel134)
+                    .addComponent(AddCarEngineSize, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel81, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(AddVanDoors1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel135, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(AddCarDoors, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
-                .addComponent(jButton13)
+                .addComponent(jButton25)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jScrollPane12.setViewportView(jPanel15);
+        jScrollPane19.setViewportView(jPanel21);
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 982, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 194, Short.MAX_VALUE))
+                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 981, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 404, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 371, Short.MAX_VALUE))
+                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 519, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         jTabbedPane3.addTab("Car", jPanel8);
@@ -674,44 +674,44 @@ public class MainUI extends javax.swing.JFrame {
         jLabel91.setForeground(new java.awt.Color(255, 255, 255));
         jLabel91.setText("Van ID");
 
-        AddVanID3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanID3.setText(" ");
+        AddVanID.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddVanID.setText(" ");
 
         jLabel92.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel92.setForeground(new java.awt.Color(255, 255, 255));
         jLabel92.setText("Van Make");
 
-        AddVanMake3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanMake3.setText(" ");
+        AddVanMake.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddVanMake.setText(" ");
 
         jLabel93.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel93.setForeground(new java.awt.Color(255, 255, 255));
         jLabel93.setText("Van Model");
 
-        AddVanModel3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanModel3.setForeground(new java.awt.Color(255, 255, 255));
-        AddVanModel3.setText(" ");
+        AddVanModel.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddVanModel.setForeground(new java.awt.Color(255, 255, 255));
+        AddVanModel.setText(" ");
 
         jLabel94.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel94.setForeground(new java.awt.Color(255, 255, 255));
         jLabel94.setText("Van Color");
 
-        AddVanColor3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanColor3.setText(" ");
+        AddVanColor.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddVanColor.setText(" ");
 
         jLabel95.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel95.setForeground(new java.awt.Color(255, 255, 255));
         jLabel95.setText("Available");
 
-        VanAvailable3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        VanAvailable3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+        VanAvailable.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        VanAvailable.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
 
         jLabel96.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel96.setForeground(new java.awt.Color(255, 255, 255));
         jLabel96.setText("Price");
 
-        AddCarPrice6.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddCarPrice6.setText(" ");
+        AddVanPrice.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddVanPrice.setText(" ");
 
         jLabel97.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel97.setForeground(new java.awt.Color(255, 255, 255));
@@ -725,14 +725,14 @@ public class MainUI extends javax.swing.JFrame {
         jLabel99.setForeground(new java.awt.Color(255, 255, 255));
         jLabel99.setText("Van Doors");
 
-        AddVanFuelType3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanFuelType3.setText(" ");
+        AddVanFuelType.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddVanFuelType.setText(" ");
 
-        AddVanEngineSize3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanEngineSize3.setText(" ");
+        AddVanEngineSize.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddVanEngineSize.setText(" ");
 
-        AddVanDoors3.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanDoors3.setText(" ");
+        AddVanDoors.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddVanDoors.setText(" ");
 
         jButton17.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton17.setText("Add Van");
@@ -748,7 +748,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane14.setViewportView(jTable7);
+        jScrollPane16.setViewportView(jTable7);
 
         jButton18.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton18.setText("Remove Van");
@@ -774,83 +774,85 @@ public class MainUI extends javax.swing.JFrame {
                             .addComponent(jLabel99))
                         .addGap(46, 46, 46)
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(VanAvailable3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AddVanColor3, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
-                            .addComponent(AddVanModel3)
-                            .addComponent(AddVanMake3)
-                            .addComponent(AddVanID3)
-                            .addComponent(AddCarPrice6)
-                            .addComponent(AddVanFuelType3)
-                            .addComponent(AddVanEngineSize3)
-                            .addComponent(AddVanDoors3))
+                            .addComponent(VanAvailable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(AddVanColor, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
+                            .addComponent(AddVanModel)
+                            .addComponent(AddVanMake)
+                            .addComponent(AddVanID)
+                            .addComponent(AddVanPrice)
+                            .addComponent(AddVanFuelType)
+                            .addComponent(AddVanEngineSize)
+                            .addComponent(AddVanDoors))
                         .addGap(31, 31, 31)
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 589, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton18))))
+                            .addComponent(jButton18)
+                            .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 577, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel17Layout.setVerticalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel17Layout.createSequentialGroup()
-                .addGap(35, 35, 35)
-                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addGap(35, 35, 35)
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel91)
-                            .addComponent(AddVanID3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(AddVanID, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel92)
-                            .addComponent(AddVanMake3)))
-                    .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(AddVanMake)))
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel93)
-                    .addComponent(AddVanModel3)
+                    .addComponent(AddVanModel)
                     .addComponent(jButton18))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel94)
-                    .addComponent(AddVanColor3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, Short.MAX_VALUE))
+                    .addComponent(AddVanColor, javax.swing.GroupLayout.PREFERRED_SIZE, 30, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel95)
-                    .addComponent(VanAvailable3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(VanAvailable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(21, 21, 21)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel96, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(AddCarPrice6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(AddVanPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel97)
-                    .addComponent(AddVanFuelType3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(AddVanFuelType, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel98)
-                    .addComponent(AddVanEngineSize3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(AddVanEngineSize, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel99, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(AddVanDoors3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(AddVanDoors, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(jButton17)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jScrollPane13.setViewportView(jPanel17);
+        jScrollPane14.setViewportView(jPanel17);
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
-                .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 983, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 981, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
-                .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 404, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 524, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -864,44 +866,44 @@ public class MainUI extends javax.swing.JFrame {
         jLabel100.setForeground(new java.awt.Color(255, 255, 255));
         jLabel100.setText("Motorbike ID");
 
-        AddVanID4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanID4.setText(" ");
+        AddMotorbikeID.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddMotorbikeID.setText(" ");
 
         jLabel101.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel101.setForeground(new java.awt.Color(255, 255, 255));
         jLabel101.setText("Motorbike Make");
 
-        AddVanMake4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanMake4.setText(" ");
+        AddMotorbikeMake.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddMotorbikeMake.setText(" ");
 
         jLabel102.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel102.setForeground(new java.awt.Color(255, 255, 255));
         jLabel102.setText("Motorbike Model");
 
-        AddVanModel4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanModel4.setForeground(new java.awt.Color(255, 255, 255));
-        AddVanModel4.setText(" ");
+        AddMotorbikeModel.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddMotorbikeModel.setForeground(new java.awt.Color(255, 255, 255));
+        AddMotorbikeModel.setText(" ");
 
         jLabel103.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel103.setForeground(new java.awt.Color(255, 255, 255));
         jLabel103.setText("Motorbike Color");
 
-        AddVanColor4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanColor4.setText(" ");
+        AddMotorbikeColor.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddMotorbikeColor.setText(" ");
 
         jLabel104.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel104.setForeground(new java.awt.Color(255, 255, 255));
         jLabel104.setText("Available");
 
-        VanAvailable4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        VanAvailable4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+        MotorbikeAvailable.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        MotorbikeAvailable.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
 
         jLabel105.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel105.setForeground(new java.awt.Color(255, 255, 255));
         jLabel105.setText("Price");
 
-        AddCarPrice7.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddCarPrice7.setText(" ");
+        AddMotorbikePrice.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddMotorbikePrice.setText(" ");
 
         jLabel106.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel106.setForeground(new java.awt.Color(255, 255, 255));
@@ -911,18 +913,11 @@ public class MainUI extends javax.swing.JFrame {
         jLabel107.setForeground(new java.awt.Color(255, 255, 255));
         jLabel107.setText("Engine Size");
 
-        jLabel108.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel108.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel108.setText("Motorbike Doors");
+        AddMotorbikeFuelType.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddMotorbikeFuelType.setText(" ");
 
-        AddVanFuelType4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanFuelType4.setText(" ");
-
-        AddVanEngineSize4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanEngineSize4.setText(" ");
-
-        AddVanDoors4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanDoors4.setText(" ");
+        AddMotorbikeEngineSize.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddMotorbikeEngineSize.setText(" ");
 
         jButton19.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton19.setText("Add Motorbike");
@@ -938,7 +933,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane16.setViewportView(jTable8);
+        jScrollPane21.setViewportView(jTable8);
 
         jButton20.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton20.setText("Remove Motorbike");
@@ -960,87 +955,83 @@ public class MainUI extends javax.swing.JFrame {
                             .addComponent(jLabel104)
                             .addComponent(jLabel105)
                             .addComponent(jLabel106)
-                            .addComponent(jLabel107)
-                            .addComponent(jLabel108))
+                            .addComponent(jLabel107))
                         .addGap(46, 46, 46)
                         .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(VanAvailable4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AddVanColor4, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
-                            .addComponent(AddVanModel4)
-                            .addComponent(AddVanMake4)
-                            .addComponent(AddVanID4)
-                            .addComponent(AddCarPrice7)
-                            .addComponent(AddVanFuelType4)
-                            .addComponent(AddVanEngineSize4)
-                            .addComponent(AddVanDoors4))
+                            .addComponent(MotorbikeAvailable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(AddMotorbikeColor, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
+                            .addComponent(AddMotorbikeModel)
+                            .addComponent(AddMotorbikeMake)
+                            .addComponent(AddMotorbikeID)
+                            .addComponent(AddMotorbikePrice)
+                            .addComponent(AddMotorbikeFuelType)
+                            .addComponent(AddMotorbikeEngineSize))
                         .addGap(31, 31, 31)
                         .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 589, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton20))))
+                            .addComponent(jButton20)
+                            .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 577, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel18Layout.setVerticalGroup(
             jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel18Layout.createSequentialGroup()
-                .addGap(35, 35, 35)
-                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel18Layout.createSequentialGroup()
+                        .addGap(35, 35, 35)
                         .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel100)
-                            .addComponent(AddVanID4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(AddMotorbikeID, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel101)
-                            .addComponent(AddVanMake4)))
-                    .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(AddMotorbikeMake)))
+                    .addGroup(jPanel18Layout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel102)
-                    .addComponent(AddVanModel4)
+                    .addComponent(AddMotorbikeModel)
                     .addComponent(jButton20))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel103)
-                    .addComponent(AddVanColor4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, Short.MAX_VALUE))
+                    .addComponent(AddMotorbikeColor, javax.swing.GroupLayout.PREFERRED_SIZE, 30, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel104)
-                    .addComponent(VanAvailable4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(MotorbikeAvailable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(21, 21, 21)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel105, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(AddCarPrice7, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(AddMotorbikePrice, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel106)
-                    .addComponent(AddVanFuelType4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(AddMotorbikeFuelType, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel107)
-                    .addComponent(AddVanEngineSize4, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel108, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(AddVanDoors4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(AddMotorbikeEngineSize, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jButton19)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(58, Short.MAX_VALUE))
         );
 
-        jScrollPane15.setViewportView(jPanel18);
+        jScrollPane18.setViewportView(jPanel18);
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
         jPanel10Layout.setHorizontalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel10Layout.createSequentialGroup()
-                .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 1038, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 981, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel10Layout.createSequentialGroup()
-                .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 407, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -1054,44 +1045,44 @@ public class MainUI extends javax.swing.JFrame {
         jLabel109.setForeground(new java.awt.Color(255, 255, 255));
         jLabel109.setText("Truck ID");
 
-        AddVanID5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanID5.setText(" ");
+        AddTruckID.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddTruckID.setText(" ");
 
         jLabel110.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel110.setForeground(new java.awt.Color(255, 255, 255));
         jLabel110.setText("Truck Make");
 
-        AddVanMake5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanMake5.setText(" ");
+        AddTruckMake.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddTruckMake.setText(" ");
 
         jLabel111.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel111.setForeground(new java.awt.Color(255, 255, 255));
         jLabel111.setText("Truck Model");
 
-        AddVanModel5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanModel5.setForeground(new java.awt.Color(255, 255, 255));
-        AddVanModel5.setText(" ");
+        AddTruckModel.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddTruckModel.setForeground(new java.awt.Color(255, 255, 255));
+        AddTruckModel.setText(" ");
 
         jLabel112.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel112.setForeground(new java.awt.Color(255, 255, 255));
         jLabel112.setText("Truck Color");
 
-        AddVanColor5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanColor5.setText(" ");
+        AddTruckColor.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddTruckColor.setText(" ");
 
         jLabel113.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel113.setForeground(new java.awt.Color(255, 255, 255));
         jLabel113.setText("Available");
 
-        VanAvailable5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        VanAvailable5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+        TruckAvailable.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        TruckAvailable.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
 
         jLabel114.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel114.setForeground(new java.awt.Color(255, 255, 255));
         jLabel114.setText("Price");
 
-        AddCarPrice8.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddCarPrice8.setText(" ");
+        AddTruckPrice.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddTruckPrice.setText(" ");
 
         jLabel115.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel115.setForeground(new java.awt.Color(255, 255, 255));
@@ -1105,14 +1096,14 @@ public class MainUI extends javax.swing.JFrame {
         jLabel117.setForeground(new java.awt.Color(255, 255, 255));
         jLabel117.setText("Trailer Type");
 
-        AddVanFuelType5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanFuelType5.setText(" ");
+        AddTruckFuelType.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddTruckFuelType.setText(" ");
 
-        AddVanEngineSize5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanEngineSize5.setText(" ");
+        AddTruckEngineSize.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddTruckEngineSize.setText(" ");
 
-        AddVanDoors5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanDoors5.setText(" ");
+        AddTruckDoors.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        AddTruckDoors.setText(" ");
 
         jButton21.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton21.setText("Add Truck");
@@ -1128,11 +1119,10 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane18.setViewportView(jTable9);
+        jScrollPane23.setViewportView(jTable9);
 
         jButton22.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jButton22.setText("Remove Van");
-        jButton22.setActionCommand("Remove Truck");
+        jButton22.setText("Remove Truck");
 
         javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
         jPanel19.setLayout(jPanel19Layout);
@@ -1155,83 +1145,85 @@ public class MainUI extends javax.swing.JFrame {
                             .addComponent(jLabel117))
                         .addGap(46, 46, 46)
                         .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(VanAvailable5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(AddVanColor5, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
-                            .addComponent(AddVanModel5)
-                            .addComponent(AddVanMake5)
-                            .addComponent(AddVanID5)
-                            .addComponent(AddCarPrice8)
-                            .addComponent(AddVanFuelType5)
-                            .addComponent(AddVanEngineSize5)
-                            .addComponent(AddVanDoors5))
+                            .addComponent(TruckAvailable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(AddTruckColor, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
+                            .addComponent(AddTruckModel)
+                            .addComponent(AddTruckMake)
+                            .addComponent(AddTruckID)
+                            .addComponent(AddTruckPrice)
+                            .addComponent(AddTruckFuelType)
+                            .addComponent(AddTruckEngineSize)
+                            .addComponent(AddTruckDoors))
                         .addGap(31, 31, 31)
                         .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 589, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton22))))
+                            .addComponent(jButton22)
+                            .addComponent(jScrollPane23, javax.swing.GroupLayout.PREFERRED_SIZE, 577, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel19Layout.setVerticalGroup(
             jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel19Layout.createSequentialGroup()
-                .addGap(35, 35, 35)
-                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addGap(35, 35, 35)
                         .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel109)
-                            .addComponent(AddVanID5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(AddTruckID, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel110)
-                            .addComponent(AddVanMake5)))
-                    .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(AddTruckMake)))
+                    .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jScrollPane23, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel111)
-                    .addComponent(AddVanModel5)
+                    .addComponent(AddTruckModel)
                     .addComponent(jButton22))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel112)
-                    .addComponent(AddVanColor5, javax.swing.GroupLayout.PREFERRED_SIZE, 30, Short.MAX_VALUE))
+                    .addComponent(AddTruckColor, javax.swing.GroupLayout.PREFERRED_SIZE, 30, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel113)
-                    .addComponent(VanAvailable5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(TruckAvailable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(21, 21, 21)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel114, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(AddCarPrice8, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(AddTruckPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel115)
-                    .addComponent(AddVanFuelType5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(AddTruckFuelType, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(24, 24, 24)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel116)
-                    .addComponent(AddVanEngineSize5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(AddTruckEngineSize, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel117, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(AddVanDoors5, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(AddTruckDoors, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(jButton21)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jScrollPane17.setViewportView(jPanel19);
+        jScrollPane22.setViewportView(jPanel19);
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
         jPanel11Layout.setHorizontalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel11Layout.createSequentialGroup()
-                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 992, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(jScrollPane22, javax.swing.GroupLayout.DEFAULT_SIZE, 962, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel11Layout.createSequentialGroup()
-                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 406, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane22, javax.swing.GroupLayout.PREFERRED_SIZE, 538, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -1241,11 +1233,13 @@ public class MainUI extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane3)
+            .addComponent(jTabbedPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 977, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane3, javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addComponent(jTabbedPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 557, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 257, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Update vehicles", jPanel5);
@@ -1268,8 +1262,8 @@ public class MainUI extends javax.swing.JFrame {
         userPanelLayout.setHorizontalGroup(
             userPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(userPanelLayout.createSequentialGroup()
-                .addComponent(jTabbedPane1)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 204, Short.MAX_VALUE))
         );
         userPanelLayout.setVerticalGroup(
             userPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1580,11 +1574,11 @@ public class MainUI extends javax.swing.JFrame {
         );
         vanPanelLayout.setVerticalGroup(
             vanPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 847, Short.MAX_VALUE)
+            .addGap(0, 858, Short.MAX_VALUE)
             .addGroup(vanPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(vanPanelLayout.createSequentialGroup()
                     .addComponent(carPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 84, Short.MAX_VALUE)))
+                    .addGap(0, 95, Short.MAX_VALUE)))
         );
 
         mainFrame.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/camper.png")), vanPanel); // NOI18N
@@ -1745,11 +1739,11 @@ public class MainUI extends javax.swing.JFrame {
         );
         bikePanelLayout.setVerticalGroup(
             bikePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 847, Short.MAX_VALUE)
+            .addGap(0, 858, Short.MAX_VALUE)
             .addGroup(bikePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(bikePanelLayout.createSequentialGroup()
                     .addComponent(carPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 84, Short.MAX_VALUE)))
+                    .addGap(0, 95, Short.MAX_VALUE)))
         );
 
         mainFrame.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/scooter.png")), bikePanel); // NOI18N
@@ -1910,11 +1904,11 @@ public class MainUI extends javax.swing.JFrame {
         );
         truckPanelLayout.setVerticalGroup(
             truckPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 847, Short.MAX_VALUE)
+            .addGap(0, 858, Short.MAX_VALUE)
             .addGroup(truckPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(truckPanelLayout.createSequentialGroup()
                     .addComponent(carPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 84, Short.MAX_VALUE)))
+                    .addGap(0, 95, Short.MAX_VALUE)))
         );
 
         mainFrame.addTab("", new javax.swing.ImageIcon(getClass().getResource("/icons/truck.png")), truckPanel); // NOI18N
@@ -1998,38 +1992,38 @@ public class MainUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField AddCarPrice4;
-    private javax.swing.JTextField AddCarPrice6;
-    private javax.swing.JTextField AddCarPrice7;
-    private javax.swing.JTextField AddCarPrice8;
-    private javax.swing.JTextField AddVanColor1;
-    private javax.swing.JTextField AddVanColor3;
-    private javax.swing.JTextField AddVanColor4;
-    private javax.swing.JTextField AddVanColor5;
-    private javax.swing.JTextField AddVanDoors1;
-    private javax.swing.JTextField AddVanDoors3;
-    private javax.swing.JTextField AddVanDoors4;
-    private javax.swing.JTextField AddVanDoors5;
-    private javax.swing.JTextField AddVanEngineSize1;
-    private javax.swing.JTextField AddVanEngineSize3;
-    private javax.swing.JTextField AddVanEngineSize4;
-    private javax.swing.JTextField AddVanEngineSize5;
-    private javax.swing.JTextField AddVanFuelType1;
-    private javax.swing.JTextField AddVanFuelType3;
-    private javax.swing.JTextField AddVanFuelType4;
-    private javax.swing.JTextField AddVanFuelType5;
-    private javax.swing.JTextField AddVanID1;
-    private javax.swing.JTextField AddVanID3;
-    private javax.swing.JTextField AddVanID4;
-    private javax.swing.JTextField AddVanID5;
-    private javax.swing.JTextField AddVanMake1;
-    private javax.swing.JTextField AddVanMake3;
-    private javax.swing.JTextField AddVanMake4;
-    private javax.swing.JTextField AddVanMake5;
-    private javax.swing.JTextField AddVanModel1;
-    private javax.swing.JTextField AddVanModel3;
-    private javax.swing.JTextField AddVanModel4;
-    private javax.swing.JTextField AddVanModel5;
+    private javax.swing.JTextField AddCarColor;
+    private javax.swing.JTextField AddCarDoors;
+    private javax.swing.JTextField AddCarEngineSize;
+    private javax.swing.JTextField AddCarFuelType;
+    private javax.swing.JTextField AddCarID;
+    private javax.swing.JTextField AddCarMake;
+    private javax.swing.JTextField AddCarModel;
+    private javax.swing.JTextField AddCarPrice;
+    private javax.swing.JTextField AddMotorbikeColor;
+    private javax.swing.JTextField AddMotorbikeEngineSize;
+    private javax.swing.JTextField AddMotorbikeFuelType;
+    private javax.swing.JTextField AddMotorbikeID;
+    private javax.swing.JTextField AddMotorbikeMake;
+    private javax.swing.JTextField AddMotorbikeModel;
+    private javax.swing.JTextField AddMotorbikePrice;
+    private javax.swing.JTextField AddTruckColor;
+    private javax.swing.JTextField AddTruckDoors;
+    private javax.swing.JTextField AddTruckEngineSize;
+    private javax.swing.JTextField AddTruckFuelType;
+    private javax.swing.JTextField AddTruckID;
+    private javax.swing.JTextField AddTruckMake;
+    private javax.swing.JTextField AddTruckModel;
+    private javax.swing.JTextField AddTruckPrice;
+    private javax.swing.JTextField AddVanColor;
+    private javax.swing.JTextField AddVanDoors;
+    private javax.swing.JTextField AddVanEngineSize;
+    private javax.swing.JTextField AddVanFuelType;
+    private javax.swing.JTextField AddVanID;
+    private javax.swing.JTextField AddVanMake;
+    private javax.swing.JTextField AddVanModel;
+    private javax.swing.JTextField AddVanPrice;
+    private javax.swing.JComboBox<String> CarAvailable;
     private javax.swing.JTextField CarBranchID;
     private javax.swing.JTextField CarDropOffLocation;
     private org.jdesktop.swingx.JXDatePicker CarEndDate;
@@ -2037,6 +2031,7 @@ public class MainUI extends javax.swing.JFrame {
     private org.jdesktop.swingx.JXDatePicker CarStartDate;
     private javax.swing.JTextField CarUserID;
     private javax.swing.JTextField CarVehicleID;
+    private javax.swing.JComboBox<String> MotorbikeAvailable;
     private javax.swing.JTextField MotorbikeBranchID;
     private javax.swing.JTextField MotorbikeDropOffLocation;
     private org.jdesktop.swingx.JXDatePicker MotorbikeEndDate;
@@ -2044,6 +2039,7 @@ public class MainUI extends javax.swing.JFrame {
     private org.jdesktop.swingx.JXDatePicker MotorbikeStartDate;
     private javax.swing.JTextField MotorbikeUserID;
     private javax.swing.JTextField MotorbikeVehicleID;
+    private javax.swing.JComboBox<String> TruckAvailable;
     private javax.swing.JTextField TruckBranchID;
     private javax.swing.JTextField TruckDropOffLocation;
     private org.jdesktop.swingx.JXDatePicker TruckEndDate;
@@ -2051,10 +2047,7 @@ public class MainUI extends javax.swing.JFrame {
     private org.jdesktop.swingx.JXDatePicker TruckStartDate;
     private javax.swing.JTextField TruckUserID;
     private javax.swing.JTextField TruckVehicleID;
-    private javax.swing.JComboBox<String> VanAvailable1;
-    private javax.swing.JComboBox<String> VanAvailable3;
-    private javax.swing.JComboBox<String> VanAvailable4;
-    private javax.swing.JComboBox<String> VanAvailable5;
+    private javax.swing.JComboBox<String> VanAvailable;
     private javax.swing.JTextField VanBranchID;
     private javax.swing.JTextField VanDropOffLocation;
     private org.jdesktop.swingx.JXDatePicker VanEndDate;
@@ -2075,14 +2068,14 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton20;
     private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
@@ -2093,7 +2086,6 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel105;
     private javax.swing.JLabel jLabel106;
     private javax.swing.JLabel jLabel107;
-    private javax.swing.JLabel jLabel108;
     private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel110;
@@ -2105,7 +2097,16 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel116;
     private javax.swing.JLabel jLabel117;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel127;
+    private javax.swing.JLabel jLabel128;
+    private javax.swing.JLabel jLabel129;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel130;
+    private javax.swing.JLabel jLabel131;
+    private javax.swing.JLabel jLabel132;
+    private javax.swing.JLabel jLabel133;
+    private javax.swing.JLabel jLabel134;
+    private javax.swing.JLabel jLabel135;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
@@ -2136,16 +2137,7 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
-    private javax.swing.JLabel jLabel73;
-    private javax.swing.JLabel jLabel74;
-    private javax.swing.JLabel jLabel75;
-    private javax.swing.JLabel jLabel76;
-    private javax.swing.JLabel jLabel77;
-    private javax.swing.JLabel jLabel78;
-    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel80;
-    private javax.swing.JLabel jLabel81;
     private javax.swing.JLabel jLabel91;
     private javax.swing.JLabel jLabel92;
     private javax.swing.JLabel jLabel93;
@@ -2158,11 +2150,11 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel21;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
@@ -2173,20 +2165,20 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JPopupMenu jPopupMenu1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
-    private javax.swing.JScrollPane jScrollPane12;
-    private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane14;
-    private javax.swing.JScrollPane jScrollPane15;
     private javax.swing.JScrollPane jScrollPane16;
-    private javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane18;
+    private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane20;
+    private javax.swing.JScrollPane jScrollPane21;
+    private javax.swing.JScrollPane jScrollPane22;
+    private javax.swing.JScrollPane jScrollPane23;
     private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTabbedPane jTabbedPane3;
-    private javax.swing.JTable jTable5;
+    private javax.swing.JTable jTable11;
     private javax.swing.JTable jTable7;
     private javax.swing.JTable jTable8;
     private javax.swing.JTable jTable9;
