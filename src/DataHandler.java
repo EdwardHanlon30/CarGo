@@ -1,3 +1,4 @@
+import java.sql.SQLException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -22,18 +23,13 @@ public class DataHandler{
     private static java.sql.ResultSet rs;
     private static java.sql.ResultSetMetaData rsMeta;
     private static int columnCount=0;
-    public boolean success = false;
-    
-   
-public boolean registerUser(String username,String password,
+    public static boolean success = false;
+    public static User loggedInUser;
+
+public static boolean registerUser(String username,String password,
                          String email, String cardNumber, String expiry,
-                         String securityCode) throws ParseException	{
-    DateFormat df = new SimpleDateFormat("dd/mm/yyyy");
-    Date datePicker = df.parse(expiry);    
-    String sqlQuery = "SELECT * FROM AppUser WHERE "
-            + "userName='"+username+"'"
-            + " AND userPassword='"+password+"'"
-            + " AND userEmail='"+email+"';";
+                         String securityCode) throws ParseException, SQLException	{   
+    String sqlQuery = "SELECT userEmail FROM AppUser WHERE userEmail='"+email+"';";
     try{
         Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
         con = java.sql.DriverManager.getConnection(DBURL, "","");
@@ -44,6 +40,7 @@ public boolean registerUser(String username,String password,
         if(rs.first())
         {
             con.close();
+            System.out.println("User Exists Already");
             return false;
         }
         else
@@ -62,7 +59,7 @@ public boolean registerUser(String username,String password,
                      + "'"+password+"',"
                      + "'"+email+"',"
                      + "'"+cardNumber+"',"
-                     + "'"+datePicker+"',"
+                     + "'"+expiry+"',"
                      + "'"+securityCode+"');";
              try{
                  stm = con.createStatement();
@@ -72,9 +69,124 @@ public boolean registerUser(String username,String password,
              catch ( java.sql.SQLException sqlex ) {
                  System.err.println( sqlex );
                  System.out.println("This Failed 2");
+                 con.close();
              }
+             con.close();
              return true;
 
+        }
+    }
+    catch ( ClassNotFoundException cnfex ) {
+       System.err.println("Issue with driver." );
+       System.exit( 1 );  // terminate program
+    }
+    catch ( java.sql.SQLException sqlex ) {
+      System.err.println("Check your SQL " + sqlex );
+    }
+    catch ( Exception ex ) {
+        System.err.println( ex );
+    }
+    con.close();
+    return false;
+}//End Register User
+
+public static boolean login(String email, String password) throws SQLException
+{
+    String sqlQuery = "SELECT * FROM AppUser WHERE userEmail='"+email+"'"
+            + "AND userPassword='"+password+"';";
+    try{
+        Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+        con = java.sql.DriverManager.getConnection(DBURL, "","");
+        stm = con.createStatement(       
+          java.sql.ResultSet.TYPE_SCROLL_INSENSITIVE, 
+          java.sql.ResultSet.CONCUR_UPDATABLE);
+        rs = stm.executeQuery(sqlQuery);
+        if(rs.first())
+        {
+            int Id = rs.getInt(1);
+            DataHandler.loggedInUser = new User(
+                Id,rs.getString(2), 
+                rs.getString(3),rs.getString(4), 
+                rs.getString(5),rs.getString(7),
+                rs.getString(6));
+            System.out.println(Id);
+            System.out.println(rs.getString(2));
+            System.out.println(rs.getString(3));
+            System.out.println(rs.getString(4));
+            System.out.println(rs.getString(5));
+            System.out.println(rs.getString(6));
+            System.out.println(rs.getString(7));
+            System.out.println(DataHandler.loggedInUser);
+            con.close();
+            return true;
+            
+        }
+        else
+        {
+            System.out.println("ERROR~~~~~~~~~~~~~~~~~~~~~~~");
+            con.close();
+            return false;
+        }
+    }
+    catch ( ClassNotFoundException cnfex ) {
+        System.err.println("Issue with driver." );
+        System.exit( 1 );  // terminate program
+    }
+    catch ( java.sql.SQLException sqlex ) {
+      System.err.println("Check your SQL " + sqlex );
+    }
+    catch ( Exception ex ) {
+        System.err.println( ex );
+    }
+    con.close();
+    return false;
+        
+}
+
+/*############################################################################*/
+public static void updateUser(int userId, String name,String password, String email, 
+            String cardNumber ,Date cardExpiry,String securityCode) throws SQLException
+{
+ String sqlQuery = "SELECT * FROM AppUser WHERE userId='"+userId+"';";
+    try{
+        Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+        con = java.sql.DriverManager.getConnection(DBURL, "","");
+        stm = con.createStatement(       
+          java.sql.ResultSet.TYPE_SCROLL_INSENSITIVE, 
+          java.sql.ResultSet.CONCUR_UPDATABLE);
+        rs = stm.executeQuery(sqlQuery);
+        System.out.println(userId);
+        if(rs.first())
+        {
+            sqlQuery = "UPDATE AppUser SET "
+                        + "userName='"+name+"',"
+                        + "userPassword='"+password+"',"
+                        +"userEmail='"+email+"',"
+                        + "userCardNumber='"+cardNumber+"',"
+                        + "userCardExpiry='"+cardExpiry+"',"
+                        + "userCardSecurityCode='"+securityCode+"' "
+                        + "WHERE userId='"+userId+"';";
+            try{
+                stm = con.createStatement();
+                stm.executeUpdate(sqlQuery); // execute query on the database
+                con.close();
+            }
+            catch ( java.sql.SQLException sqlex ) {
+                System.err.println( sqlex );
+                System.out.println("This Failed 2");
+                con.close();
+            }
+            catch (Exception e)
+            {
+                System.out.println(e);
+            }
+
+
+        }
+        else
+        {
+            System.out.println("UPDATE FAILED");
+            con.close();
         }
 
     }
@@ -88,8 +200,8 @@ public boolean registerUser(String username,String password,
     catch ( Exception ex ) {
         System.err.println( ex );
     }
-    return false;
-}//End Register User
+    con.close();
+}
 
 /*############################################################################*/
 public static void addAdmin()
