@@ -75,8 +75,6 @@ public class MainUI extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel6 = new javax.swing.JPanel();
-        jLabel17 = new javax.swing.JLabel();
-        UpdateUserID = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
         UpdateUSerName = new javax.swing.JTextField();
         jLabel18 = new javax.swing.JLabel();
@@ -93,8 +91,6 @@ public class MainUI extends javax.swing.JFrame {
         jTable1 = new javax.swing.JTable();
         jPanel7 = new javax.swing.JPanel();
         jPanel12 = new javax.swing.JPanel();
-        jLabel22 = new javax.swing.JLabel();
-        UpdateAdminID = new javax.swing.JTextField();
         jLabel23 = new javax.swing.JLabel();
         UpdateAdminName = new javax.swing.JTextField();
         jLabel24 = new javax.swing.JLabel();
@@ -110,8 +106,6 @@ public class MainUI extends javax.swing.JFrame {
         jPanel8 = new javax.swing.JPanel();
         jScrollPane19 = new javax.swing.JScrollPane();
         jPanel21 = new javax.swing.JPanel();
-        jLabel127 = new javax.swing.JLabel();
-        AddCarID = new javax.swing.JTextField();
         jLabel128 = new javax.swing.JLabel();
         AddCarMake = new javax.swing.JTextField();
         jLabel129 = new javax.swing.JLabel();
@@ -135,8 +129,6 @@ public class MainUI extends javax.swing.JFrame {
         jPanel9 = new javax.swing.JPanel();
         jScrollPane14 = new javax.swing.JScrollPane();
         jPanel17 = new javax.swing.JPanel();
-        jLabel91 = new javax.swing.JLabel();
-        AddVanID = new javax.swing.JTextField();
         jLabel92 = new javax.swing.JLabel();
         AddVanMake = new javax.swing.JTextField();
         jLabel93 = new javax.swing.JLabel();
@@ -160,8 +152,6 @@ public class MainUI extends javax.swing.JFrame {
         jPanel10 = new javax.swing.JPanel();
         jScrollPane18 = new javax.swing.JScrollPane();
         jPanel18 = new javax.swing.JPanel();
-        jLabel100 = new javax.swing.JLabel();
-        AddMotorbikeID = new javax.swing.JTextField();
         jLabel101 = new javax.swing.JLabel();
         AddMotorbikeMake = new javax.swing.JTextField();
         jLabel102 = new javax.swing.JLabel();
@@ -183,8 +173,6 @@ public class MainUI extends javax.swing.JFrame {
         jPanel11 = new javax.swing.JPanel();
         jScrollPane22 = new javax.swing.JScrollPane();
         jPanel19 = new javax.swing.JPanel();
-        jLabel109 = new javax.swing.JLabel();
-        AddTruckID = new javax.swing.JTextField();
         jLabel110 = new javax.swing.JLabel();
         AddTruckMake = new javax.swing.JTextField();
         jLabel111 = new javax.swing.JLabel();
@@ -415,7 +403,7 @@ public class MainUI extends javax.swing.JFrame {
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addContainerGap(139, Short.MAX_VALUE)
+                .addContainerGap(135, Short.MAX_VALUE)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(regConfirm)
@@ -434,7 +422,7 @@ public class MainUI extends javax.swing.JFrame {
                             .addComponent(regEmail)
                             .addComponent(regUserName)
                             .addComponent(regPassword)
-                            .addComponent(regCardNumber, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
+                            .addComponent(regCardNumber)
                             .addComponent(regSecurityCode, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(regExpire, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(364, 364, 364))
@@ -603,7 +591,7 @@ public class MainUI extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(userAccountEdit, javax.swing.GroupLayout.PREFERRED_SIZE, 990, Short.MAX_VALUE)
+            .addComponent(userAccountEdit, javax.swing.GroupLayout.PREFERRED_SIZE, 992, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -617,13 +605,6 @@ public class MainUI extends javax.swing.JFrame {
         jTabbedPane2.setBackground(new java.awt.Color(0, 102, 102));
 
         jPanel6.setBackground(new java.awt.Color(0, 102, 102));
-
-        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel17.setText("User ID");
-
-        UpdateUserID.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        UpdateUserID.setText(" ");
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
@@ -693,15 +674,13 @@ public class MainUI extends javax.swing.JFrame {
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel9)
-                            .addComponent(jLabel17)
                             .addComponent(jLabel18)
                             .addComponent(jLabel19)
                             .addComponent(jLabel20)
                             .addComponent(jLabel21))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(UpdateUserID, javax.swing.GroupLayout.DEFAULT_SIZE, 123, Short.MAX_VALUE)
-                            .addComponent(UpdateUSerName)
+                            .addComponent(UpdateUSerName, javax.swing.GroupLayout.DEFAULT_SIZE, 123, Short.MAX_VALUE)
                             .addComponent(UpdateUserCardNumber)
                             .addComponent(UpdateUSerSecurityNumber)
                             .addComponent(UpdateUSerCardExpiry)
@@ -715,11 +694,7 @@ public class MainUI extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel17)
-                            .addComponent(UpdateUserID, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
+                        .addGap(68, 68, 68)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(UpdateUSerName, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
@@ -754,13 +729,6 @@ public class MainUI extends javax.swing.JFrame {
         jPanel7.setBackground(new java.awt.Color(0, 102, 102));
 
         jPanel12.setBackground(new java.awt.Color(0, 102, 102));
-
-        jLabel22.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel22.setText("User ID");
-
-        UpdateAdminID.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        UpdateAdminID.setText(" ");
 
         jLabel23.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(255, 255, 255));
@@ -810,13 +778,11 @@ public class MainUI extends javax.swing.JFrame {
                 .addGap(20, 20, 20)
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel23)
-                    .addComponent(jLabel22)
                     .addComponent(jLabel24)
                     .addComponent(jLabel25))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(UpdateAdminID, javax.swing.GroupLayout.DEFAULT_SIZE, 123, Short.MAX_VALUE)
-                    .addComponent(UpdateAdminName)
+                    .addComponent(UpdateAdminName, javax.swing.GroupLayout.DEFAULT_SIZE, 123, Short.MAX_VALUE)
                     .addComponent(UpdateAdminAccessLevel)
                     .addComponent(UpdateAdminPass))
                 .addGap(91, 91, 91)
@@ -834,11 +800,7 @@ public class MainUI extends javax.swing.JFrame {
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel12Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel22)
-                            .addComponent(UpdateAdminID, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
+                        .addGap(68, 68, 68)
                         .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(UpdateAdminName, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
@@ -891,13 +853,6 @@ public class MainUI extends javax.swing.JFrame {
         jPanel8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jPanel21.setBackground(new java.awt.Color(0, 102, 102));
-
-        jLabel127.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel127.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel127.setText("Car ID");
-
-        AddCarID.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddCarID.setText(" ");
 
         jLabel128.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel128.setForeground(new java.awt.Color(255, 255, 255));
@@ -986,7 +941,6 @@ public class MainUI extends javax.swing.JFrame {
                     .addGroup(jPanel21Layout.createSequentialGroup()
                         .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel128)
-                            .addComponent(jLabel127)
                             .addComponent(jLabel129)
                             .addComponent(jLabel130)
                             .addComponent(jLabel131)
@@ -1000,7 +954,6 @@ public class MainUI extends javax.swing.JFrame {
                             .addComponent(AddCarColor, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
                             .addComponent(AddCarModel)
                             .addComponent(AddCarMake)
-                            .addComponent(AddCarID)
                             .addComponent(AddCarPrice)
                             .addComponent(AddCarFuelType)
                             .addComponent(AddCarEngineSize)
@@ -1009,18 +962,14 @@ public class MainUI extends javax.swing.JFrame {
                         .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButton26)
                             .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 577, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(15, Short.MAX_VALUE))
         );
         jPanel21Layout.setVerticalGroup(
             jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel21Layout.createSequentialGroup()
                 .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel21Layout.createSequentialGroup()
-                        .addGap(35, 35, 35)
-                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel127)
-                            .addComponent(AddCarID, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
+                        .addGap(82, 82, 82)
                         .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel128)
                             .addComponent(AddCarMake)))
@@ -1081,13 +1030,6 @@ public class MainUI extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(0, 102, 102));
 
         jPanel17.setBackground(new java.awt.Color(0, 102, 102));
-
-        jLabel91.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel91.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel91.setText("Van ID");
-
-        AddVanID.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddVanID.setText(" ");
 
         jLabel92.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel92.setForeground(new java.awt.Color(255, 255, 255));
@@ -1176,7 +1118,6 @@ public class MainUI extends javax.swing.JFrame {
                     .addGroup(jPanel17Layout.createSequentialGroup()
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel92)
-                            .addComponent(jLabel91)
                             .addComponent(jLabel93)
                             .addComponent(jLabel94)
                             .addComponent(jLabel95)
@@ -1190,7 +1131,6 @@ public class MainUI extends javax.swing.JFrame {
                             .addComponent(AddVanColor, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
                             .addComponent(AddVanModel)
                             .addComponent(AddVanMake)
-                            .addComponent(AddVanID)
                             .addComponent(AddVanPrice)
                             .addComponent(AddVanFuelType)
                             .addComponent(AddVanEngineSize)
@@ -1199,18 +1139,14 @@ public class MainUI extends javax.swing.JFrame {
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButton18)
                             .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 577, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(15, Short.MAX_VALUE))
         );
         jPanel17Layout.setVerticalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel17Layout.createSequentialGroup()
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel17Layout.createSequentialGroup()
-                        .addGap(35, 35, 35)
-                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel91)
-                            .addComponent(AddVanID, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
+                        .addGap(82, 82, 82)
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel92)
                             .addComponent(AddVanMake)))
@@ -1273,13 +1209,6 @@ public class MainUI extends javax.swing.JFrame {
         jPanel10.setBackground(new java.awt.Color(0, 102, 102));
 
         jPanel18.setBackground(new java.awt.Color(0, 102, 102));
-
-        jLabel100.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel100.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel100.setText("Motorbike ID");
-
-        AddMotorbikeID.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddMotorbikeID.setText(" ");
 
         jLabel101.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel101.setForeground(new java.awt.Color(255, 255, 255));
@@ -1361,7 +1290,6 @@ public class MainUI extends javax.swing.JFrame {
                     .addGroup(jPanel18Layout.createSequentialGroup()
                         .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel101)
-                            .addComponent(jLabel100)
                             .addComponent(jLabel102)
                             .addComponent(jLabel103)
                             .addComponent(jLabel104)
@@ -1374,7 +1302,6 @@ public class MainUI extends javax.swing.JFrame {
                             .addComponent(AddMotorbikeColor, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
                             .addComponent(AddMotorbikeModel)
                             .addComponent(AddMotorbikeMake)
-                            .addComponent(AddMotorbikeID)
                             .addComponent(AddMotorbikePrice)
                             .addComponent(AddMotorbikeFuelType)
                             .addComponent(AddMotorbikeEngineSize))
@@ -1389,11 +1316,7 @@ public class MainUI extends javax.swing.JFrame {
             .addGroup(jPanel18Layout.createSequentialGroup()
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel18Layout.createSequentialGroup()
-                        .addGap(35, 35, 35)
-                        .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel100)
-                            .addComponent(AddMotorbikeID, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
+                        .addGap(82, 82, 82)
                         .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel101)
                             .addComponent(AddMotorbikeMake)))
@@ -1452,13 +1375,6 @@ public class MainUI extends javax.swing.JFrame {
         jPanel11.setBackground(new java.awt.Color(0, 102, 102));
 
         jPanel19.setBackground(new java.awt.Color(0, 102, 102));
-
-        jLabel109.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel109.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel109.setText("Truck ID");
-
-        AddTruckID.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        AddTruckID.setText(" ");
 
         jLabel110.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel110.setForeground(new java.awt.Color(255, 255, 255));
@@ -1547,7 +1463,6 @@ public class MainUI extends javax.swing.JFrame {
                     .addGroup(jPanel19Layout.createSequentialGroup()
                         .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel110)
-                            .addComponent(jLabel109)
                             .addComponent(jLabel111)
                             .addComponent(jLabel112)
                             .addComponent(jLabel113)
@@ -1560,7 +1475,6 @@ public class MainUI extends javax.swing.JFrame {
                             .addComponent(TruckAvailable, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(AddTruckColor, javax.swing.GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
                             .addComponent(AddTruckModel)
-                            .addComponent(AddTruckID)
                             .addComponent(AddTruckPrice)
                             .addComponent(AddTruckFuelType)
                             .addComponent(AddTruckEngineSize)
@@ -1577,16 +1491,11 @@ public class MainUI extends javax.swing.JFrame {
             .addGroup(jPanel19Layout.createSequentialGroup()
                 .addContainerGap(22, Short.MAX_VALUE)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel19Layout.createSequentialGroup()
-                        .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel109)
-                            .addComponent(AddTruckID, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel110)
-                            .addGroup(jPanel19Layout.createSequentialGroup()
-                                .addGap(2, 2, 2)
-                                .addComponent(AddTruckMake, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))))
+                    .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jLabel110)
+                        .addGroup(jPanel19Layout.createSequentialGroup()
+                            .addGap(2, 2, 2)
+                            .addComponent(AddTruckMake, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
                     .addComponent(jScrollPane23, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -1677,7 +1586,7 @@ public class MainUI extends javax.swing.JFrame {
             userPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(userPanelLayout.createSequentialGroup()
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1168, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 127, Short.MAX_VALUE))
+                .addGap(0, 148, Short.MAX_VALUE))
         );
         userPanelLayout.setVerticalGroup(
             userPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1757,7 +1666,7 @@ public class MainUI extends javax.swing.JFrame {
             .addGroup(carPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(carPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1275, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1296, Short.MAX_VALUE)
                     .addGroup(carPanelLayout.createSequentialGroup()
                         .addGroup(carPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, carPanelLayout.createSequentialGroup()
@@ -2459,14 +2368,12 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JTextField AddCarDoors;
     private javax.swing.JTextField AddCarEngineSize;
     private javax.swing.JTextField AddCarFuelType;
-    private javax.swing.JTextField AddCarID;
     private javax.swing.JTextField AddCarMake;
     private javax.swing.JTextField AddCarModel;
     private javax.swing.JTextField AddCarPrice;
     private javax.swing.JTextField AddMotorbikeColor;
     private javax.swing.JTextField AddMotorbikeEngineSize;
     private javax.swing.JTextField AddMotorbikeFuelType;
-    private javax.swing.JTextField AddMotorbikeID;
     private javax.swing.JTextField AddMotorbikeMake;
     private javax.swing.JTextField AddMotorbikeModel;
     private javax.swing.JTextField AddMotorbikePrice;
@@ -2474,7 +2381,6 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JTextField AddTruckDoors;
     private javax.swing.JTextField AddTruckEngineSize;
     private javax.swing.JTextField AddTruckFuelType;
-    private javax.swing.JTextField AddTruckID;
     private javax.swing.JTextField AddTruckMake;
     private javax.swing.JTextField AddTruckModel;
     private javax.swing.JTextField AddTruckPrice;
@@ -2482,7 +2388,6 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JTextField AddVanDoors;
     private javax.swing.JTextField AddVanEngineSize;
     private javax.swing.JTextField AddVanFuelType;
-    private javax.swing.JTextField AddVanID;
     private javax.swing.JTextField AddVanMake;
     private javax.swing.JTextField AddVanModel;
     private javax.swing.JTextField AddVanPrice;
@@ -2512,14 +2417,12 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JTextField TruckVehicleID;
     private javax.swing.JPanel USER;
     private javax.swing.JTextField UpdateAdminAccessLevel;
-    private javax.swing.JTextField UpdateAdminID;
     private javax.swing.JTextField UpdateAdminName;
     private javax.swing.JPasswordField UpdateAdminPass;
     private javax.swing.JTextField UpdateUSerCardExpiry;
     private javax.swing.JTextField UpdateUSerName;
     private javax.swing.JTextField UpdateUSerSecurityNumber;
     private javax.swing.JTextField UpdateUserCardNumber;
-    private javax.swing.JTextField UpdateUserID;
     private javax.swing.JPasswordField UpdateUserPass;
     private javax.swing.JComboBox<String> VanAvailable;
     private javax.swing.JTextField VanBranchID;
@@ -2563,7 +2466,6 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel100;
     private javax.swing.JLabel jLabel101;
     private javax.swing.JLabel jLabel102;
     private javax.swing.JLabel jLabel103;
@@ -2571,7 +2473,6 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel105;
     private javax.swing.JLabel jLabel106;
     private javax.swing.JLabel jLabel107;
-    private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel110;
     private javax.swing.JLabel jLabel111;
@@ -2582,7 +2483,6 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel116;
     private javax.swing.JLabel jLabel117;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel127;
     private javax.swing.JLabel jLabel128;
     private javax.swing.JLabel jLabel129;
     private javax.swing.JLabel jLabel13;
@@ -2595,13 +2495,11 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
@@ -2639,7 +2537,6 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JLabel jLabel91;
     private javax.swing.JLabel jLabel92;
     private javax.swing.JLabel jLabel93;
     private javax.swing.JLabel jLabel94;
