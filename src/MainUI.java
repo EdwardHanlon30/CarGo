@@ -3,10 +3,14 @@ import java.sql.SQLException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 import static org.hsqldb.lib.StringUtil.isEmpty;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 /*
  * Author: Edward Hanlon & Muharram Bensaad
@@ -17,10 +21,29 @@ public class MainUI extends javax.swing.JFrame {
 
     /**
      * Creates new form MainUI
+     * @throws java.sql.SQLException
      */
-    public MainUI() {
+    public MainUI() throws SQLException {
+        CarTableModel = new javax.swing.table.DefaultTableModel();
+        VanTableModel = new javax.swing.table.DefaultTableModel();
+        BikeTableModel = new javax.swing.table.DefaultTableModel();
+        TruckTableModel = new javax.swing.table.DefaultTableModel();
+        UserTableModel = new javax.swing.table.DefaultTableModel();
         initComponents();
+        carTable.setModel(CarTableModel);
+        carTable2.setModel(CarTableModel);
+        vanTable.setModel(VanTableModel);
+        vanTable2.setModel(VanTableModel);
+        bikeTable.setModel(BikeTableModel);
+        bikeTable2.setModel(BikeTableModel);
+        truckTable.setModel(TruckTableModel);
+        truckTable2.setModel(TruckTableModel);
+        adminUserTable.setModel(UserTableModel);
+        adminAdminTable.setModel(UserTableModel);
+
     }
+    
+
     DateFormat df = new SimpleDateFormat("MM/dd/yyyy");
     /**
      * This method is called from within the constructor to initialize the form.
@@ -73,7 +96,7 @@ public class MainUI extends javax.swing.JFrame {
         accountSecurityCode = new javax.swing.JTextField();
         accountExpireDate = new org.jdesktop.swingx.JXDatePicker();
         jPanel2 = new javax.swing.JPanel();
-        jTabbedPane2 = new javax.swing.JTabbedPane();
+        adminPortal = new javax.swing.JTabbedPane();
         jPanel6 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
         UpdateUserID = new javax.swing.JTextField();
@@ -90,7 +113,7 @@ public class MainUI extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         UpdateUserPass = new javax.swing.JPasswordField();
         jScrollPane4 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        adminUserTable = new javax.swing.JTable();
         jPanel7 = new javax.swing.JPanel();
         jPanel12 = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
@@ -104,9 +127,9 @@ public class MainUI extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
         UpdateAdminPass = new javax.swing.JPasswordField();
         jScrollPane5 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
+        adminAdminTable = new javax.swing.JTable();
         jPanel5 = new javax.swing.JPanel();
-        jTabbedPane3 = new javax.swing.JTabbedPane();
+        updateVehicles = new javax.swing.JTabbedPane();
         jPanel8 = new javax.swing.JPanel();
         jScrollPane19 = new javax.swing.JScrollPane();
         jPanel21 = new javax.swing.JPanel();
@@ -130,7 +153,7 @@ public class MainUI extends javax.swing.JFrame {
         AddCarDoors = new javax.swing.JTextField();
         jButton25 = new javax.swing.JButton();
         jScrollPane20 = new javax.swing.JScrollPane();
-        jTable11 = new javax.swing.JTable();
+        carTable2 = new javax.swing.JTable();
         jButton26 = new javax.swing.JButton();
         jPanel9 = new javax.swing.JPanel();
         jScrollPane14 = new javax.swing.JScrollPane();
@@ -155,7 +178,7 @@ public class MainUI extends javax.swing.JFrame {
         AddVanDoors = new javax.swing.JTextField();
         jButton17 = new javax.swing.JButton();
         jScrollPane16 = new javax.swing.JScrollPane();
-        jTable7 = new javax.swing.JTable();
+        vanTable2 = new javax.swing.JTable();
         jButton18 = new javax.swing.JButton();
         jPanel10 = new javax.swing.JPanel();
         jScrollPane18 = new javax.swing.JScrollPane();
@@ -178,7 +201,7 @@ public class MainUI extends javax.swing.JFrame {
         AddMotorbikeEngineSize = new javax.swing.JTextField();
         jButton19 = new javax.swing.JButton();
         jScrollPane21 = new javax.swing.JScrollPane();
-        jTable8 = new javax.swing.JTable();
+        bikeTable2 = new javax.swing.JTable();
         jButton20 = new javax.swing.JButton();
         jPanel11 = new javax.swing.JPanel();
         jScrollPane22 = new javax.swing.JScrollPane();
@@ -203,7 +226,7 @@ public class MainUI extends javax.swing.JFrame {
         AddTruckDoors = new javax.swing.JTextField();
         jButton21 = new javax.swing.JButton();
         jScrollPane23 = new javax.swing.JScrollPane();
-        jTable9 = new javax.swing.JTable();
+        truckTable2 = new javax.swing.JTable();
         jButton22 = new javax.swing.JButton();
         carPanel = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -226,7 +249,7 @@ public class MainUI extends javax.swing.JFrame {
         vanPanel = new javax.swing.JPanel();
         carPanel2 = new javax.swing.JPanel();
         jScrollPane10 = new javax.swing.JScrollPane();
-        carTable2 = new javax.swing.JTable();
+        vanTable = new javax.swing.JTable();
         jLabel59 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
         jLabel61 = new javax.swing.JLabel();
@@ -245,7 +268,7 @@ public class MainUI extends javax.swing.JFrame {
         bikePanel = new javax.swing.JPanel();
         carPanel1 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        carTable1 = new javax.swing.JTable();
+        bikeTable = new javax.swing.JTable();
         jLabel52 = new javax.swing.JLabel();
         jLabel53 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
@@ -264,7 +287,7 @@ public class MainUI extends javax.swing.JFrame {
         truckPanel = new javax.swing.JPanel();
         carPanel3 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        carTable3 = new javax.swing.JTable();
+        truckTable = new javax.swing.JTable();
         jLabel66 = new javax.swing.JLabel();
         jLabel67 = new javax.swing.JLabel();
         jLabel68 = new javax.swing.JLabel();
@@ -292,6 +315,11 @@ public class MainUI extends javax.swing.JFrame {
         mainFrame.setDoubleBuffered(true);
         mainFrame.setOpaque(true);
         mainFrame.setPreferredSize(new java.awt.Dimension(1200, 800));
+        mainFrame.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                mainFrameStateChanged(evt);
+            }
+        });
 
         userPanel.setBackground(new java.awt.Color(0, 102, 102));
         userPanel.setBorder(javax.swing.BorderFactory.createCompoundBorder());
@@ -614,7 +642,12 @@ public class MainUI extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("USER ACCOUNT", new javax.swing.ImageIcon(getClass().getResource("/icons/management.png")), jPanel1); // NOI18N
 
-        jTabbedPane2.setBackground(new java.awt.Color(0, 102, 102));
+        adminPortal.setBackground(new java.awt.Color(0, 102, 102));
+        adminPortal.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                adminPortalStateChanged(evt);
+            }
+        });
 
         jPanel6.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -666,7 +699,7 @@ public class MainUI extends javax.swing.JFrame {
 
         UpdateUserPass.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        adminUserTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -677,7 +710,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane4.setViewportView(jTable1);
+        jScrollPane4.setViewportView(adminUserTable);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -749,7 +782,7 @@ public class MainUI extends javax.swing.JFrame {
                 .addContainerGap(461, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.addTab("Update users", jPanel6);
+        adminPortal.addTab("Update users", jPanel6);
 
         jPanel7.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -789,7 +822,7 @@ public class MainUI extends javax.swing.JFrame {
 
         UpdateAdminPass.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
 
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+        adminAdminTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -800,7 +833,8 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane5.setViewportView(jTable2);
+        adminAdminTable.setColumnSelectionAllowed(true);
+        jScrollPane5.setViewportView(adminAdminTable);
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
@@ -881,11 +915,11 @@ public class MainUI extends javax.swing.JFrame {
                     .addGap(0, 0, Short.MAX_VALUE)))
         );
 
-        jTabbedPane2.addTab("Update admins", jPanel7);
+        adminPortal.addTab("Update admins", jPanel7);
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
 
-        jTabbedPane3.setBackground(new java.awt.Color(255, 255, 255));
+        updateVehicles.setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel8.setBackground(new java.awt.Color(0, 102, 102));
         jPanel8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -959,7 +993,7 @@ public class MainUI extends javax.swing.JFrame {
         jButton25.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton25.setText("Add Car");
 
-        jTable11.setModel(new javax.swing.table.DefaultTableModel(
+        carTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -970,7 +1004,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane20.setViewportView(jTable11);
+        jScrollPane20.setViewportView(carTable2);
 
         jButton26.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton26.setText("Remove Car");
@@ -1076,7 +1110,7 @@ public class MainUI extends javax.swing.JFrame {
             .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 529, Short.MAX_VALUE)
         );
 
-        jTabbedPane3.addTab("Car", jPanel8);
+        updateVehicles.addTab("Car", jPanel8);
 
         jPanel9.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1149,7 +1183,7 @@ public class MainUI extends javax.swing.JFrame {
         jButton17.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton17.setText("Add Van");
 
-        jTable7.setModel(new javax.swing.table.DefaultTableModel(
+        vanTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -1160,7 +1194,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane16.setViewportView(jTable7);
+        jScrollPane16.setViewportView(vanTable2);
 
         jButton18.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton18.setText("Remove Van");
@@ -1268,7 +1302,7 @@ public class MainUI extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jTabbedPane3.addTab("Van", jPanel9);
+        updateVehicles.addTab("Van", jPanel9);
 
         jPanel10.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1334,7 +1368,7 @@ public class MainUI extends javax.swing.JFrame {
         jButton19.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton19.setText("Add Motorbike");
 
-        jTable8.setModel(new javax.swing.table.DefaultTableModel(
+        bikeTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -1345,7 +1379,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane21.setViewportView(jTable8);
+        jScrollPane21.setViewportView(bikeTable2);
 
         jButton20.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton20.setText("Remove Motorbike");
@@ -1447,7 +1481,7 @@ public class MainUI extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jTabbedPane3.addTab("Motorbike", jPanel10);
+        updateVehicles.addTab("Motorbike", jPanel10);
 
         jPanel11.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -1520,7 +1554,7 @@ public class MainUI extends javax.swing.JFrame {
         jButton21.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton21.setText("Add Truck");
 
-        jTable9.setModel(new javax.swing.table.DefaultTableModel(
+        truckTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -1531,7 +1565,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane23.setViewportView(jTable9);
+        jScrollPane23.setViewportView(truckTable2);
 
         jButton22.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jButton22.setText("Remove Truck");
@@ -1639,32 +1673,32 @@ public class MainUI extends javax.swing.JFrame {
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
-        jTabbedPane3.addTab("Truck", jPanel11);
+        updateVehicles.addTab("Truck", jPanel11);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane3)
+            .addComponent(updateVehicles)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
-                .addComponent(jTabbedPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 557, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(updateVehicles, javax.swing.GroupLayout.PREFERRED_SIZE, 557, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(60, 60, 60))
         );
 
-        jTabbedPane2.addTab("Update vehicles", jPanel5);
+        adminPortal.addTab("Update vehicles", jPanel5);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane2)
+            .addComponent(adminPortal)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane2)
+            .addComponent(adminPortal)
         );
 
         jTabbedPane1.addTab("ADMIN PORTAL", new javax.swing.ImageIcon(getClass().getResource("/icons/engineer.png")), jPanel2); // NOI18N
@@ -1702,6 +1736,11 @@ public class MainUI extends javax.swing.JFrame {
             }
         ));
         carTable.setDropMode(javax.swing.DropMode.ON);
+        carTable.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                carTableMousePressed(evt);
+            }
+        });
         jScrollPane1.setViewportView(carTable);
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
@@ -1837,7 +1876,7 @@ public class MainUI extends javax.swing.JFrame {
 
         carPanel2.setBackground(new java.awt.Color(51, 102, 255));
 
-        carTable2.setModel(new javax.swing.table.DefaultTableModel(
+        vanTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -1848,7 +1887,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane10.setViewportView(carTable2);
+        jScrollPane10.setViewportView(vanTable);
 
         jLabel59.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel59.setForeground(new java.awt.Color(255, 255, 255));
@@ -2002,7 +2041,7 @@ public class MainUI extends javax.swing.JFrame {
 
         carPanel1.setBackground(new java.awt.Color(102, 0, 0));
 
-        carTable1.setModel(new javax.swing.table.DefaultTableModel(
+        bikeTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -2013,7 +2052,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane2.setViewportView(carTable1);
+        jScrollPane2.setViewportView(bikeTable);
 
         jLabel52.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel52.setForeground(new java.awt.Color(255, 255, 255));
@@ -2167,7 +2206,7 @@ public class MainUI extends javax.swing.JFrame {
 
         carPanel3.setBackground(new java.awt.Color(0, 255, 51));
 
-        carTable3.setModel(new javax.swing.table.DefaultTableModel(
+        truckTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -2178,7 +2217,7 @@ public class MainUI extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane3.setViewportView(carTable3);
+        jScrollPane3.setViewportView(truckTable);
 
         jLabel66.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel66.setForeground(new java.awt.Color(255, 255, 255));
@@ -2425,6 +2464,92 @@ public class MainUI extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_accountUpdateUserActionPerformed
 
+    private void mainFrameStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_mainFrameStateChanged
+        // TODO add your handling code here:
+        switch (mainFrame.getSelectedIndex()) {
+        //Index starts at 0
+            case 1:
+                try {
+                    CarTableModel.setDataVector(DataHandler.getVehicleRows("motorVehicle","car"),DataHandler.getVehicleTitles("motorVehicle"));
+                } catch (SQLException ex) {
+                    Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                break;
+            case 2:
+                try {
+                    VanTableModel.setDataVector(DataHandler.getVehicleRows("motorVehicle","van"),DataHandler.getVehicleTitles("motorVehicle"));
+                } catch (SQLException ex) {
+                    Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                break;
+            case 3:
+                try {
+                    BikeTableModel.setDataVector(DataHandler.getVehicleRows("motorVehicle","bike"),DataHandler.getVehicleTitles("motorVehicle"));
+                } catch (SQLException ex) {
+                    Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                break;
+            case 4:
+                try {
+                    TruckTableModel.setDataVector(DataHandler.getVehicleRows("motorVehicle","truck"),DataHandler.getVehicleTitles("motorVehicle"));
+                } catch (SQLException ex) {
+                    Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                break;        
+            default:
+                break;
+        }
+    }//GEN-LAST:event_mainFrameStateChanged
+
+    private void adminPortalStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_adminPortalStateChanged
+        // TODO add your handling code here:
+        if(adminPortal.getSelectedIndex()==0) //Index starts at 0
+        {
+            try {
+                UserTableModel.setDataVector(DataHandler.getUserRows("AppUser"),DataHandler.getUserTitles("AppUser"));
+            } catch (SQLException ex) {
+                Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+        else if(adminPortal.getSelectedIndex()==1) //Index starts at 0
+        {
+            try {
+                UserTableModel.setDataVector(DataHandler.getUserRows("Admin"),DataHandler.getUserTitles("Admin"));
+            } catch (SQLException ex) {
+                Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }//GEN-LAST:event_adminPortalStateChanged
+
+    private void carTableMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_carTableMousePressed
+        // TODO add your handling code here:
+        try{
+            ArrayList <String> details = new ArrayList<>();
+            String selectedData = null;
+            int columnCount = CarTableModel.getColumnCount();
+            int row = carTable.getSelectedRow();
+            for(int i=0;i<columnCount;i++)
+            {
+                selectedData= (String) carTable.getValueAt(row, i).toString();
+                details.add(selectedData);
+            }
+            System.out.println(details);
+            int index = details.size()-1;
+            CarBranchID.setText(details.get(index));
+            CarUserID.setText(String.valueOf(DataHandler.loggedInUser.getId()));
+            CarVehicleID.setText(details.get(0));
+        }
+        catch(Exception e)
+        {
+            JOptionPane.showMessageDialog(null,"Please login before you choose a car");
+        }
+        
+    }//GEN-LAST:event_carTableMousePressed
+
+  
+    
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -2450,7 +2575,11 @@ public class MainUI extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(() -> {
-            new MainUI().setVisible(true);
+            try {
+                new MainUI().setVisible(true);
+            } catch (SQLException ex) {
+                Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
+            }
         });
     }
 
@@ -2536,15 +2665,18 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JTextField accountSecurityCode;
     private javax.swing.JButton accountUpdateUser;
     private javax.swing.JTextField accountUserName;
+    private javax.swing.JTable adminAdminTable;
+    private javax.swing.JTabbedPane adminPortal;
+    private javax.swing.JTable adminUserTable;
     private javax.swing.JPanel bikePanel;
+    private javax.swing.JTable bikeTable;
+    private javax.swing.JTable bikeTable2;
     private javax.swing.JPanel carPanel;
     private javax.swing.JPanel carPanel1;
     private javax.swing.JPanel carPanel2;
     private javax.swing.JPanel carPanel3;
     private javax.swing.JTable carTable;
-    private javax.swing.JTable carTable1;
     private javax.swing.JTable carTable2;
-    private javax.swing.JTable carTable3;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -2679,14 +2811,6 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTabbedPane jTabbedPane2;
-    private javax.swing.JTabbedPane jTabbedPane3;
-    private javax.swing.JTable jTable1;
-    private javax.swing.JTable jTable11;
-    private javax.swing.JTable jTable2;
-    private javax.swing.JTable jTable7;
-    private javax.swing.JTable jTable8;
-    private javax.swing.JTable jTable9;
     private javax.swing.JButton loginConfirm;
     private javax.swing.JTextField loginEmail;
     private javax.swing.JPasswordField loginPassword;
@@ -2701,8 +2825,20 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JTextField regSecurityCode;
     private javax.swing.JTextField regUserName;
     private javax.swing.JPanel truckPanel;
+    private javax.swing.JTable truckTable;
+    private javax.swing.JTable truckTable2;
+    private javax.swing.JTabbedPane updateVehicles;
     private javax.swing.JPanel userAccountEdit;
     private javax.swing.JPanel userPanel;
     private javax.swing.JPanel vanPanel;
+    private javax.swing.JTable vanTable;
+    private javax.swing.JTable vanTable2;
     // End of variables declaration//GEN-END:variables
+    private javax.swing.table.DefaultTableModel CarTableModel;
+    private javax.swing.table.DefaultTableModel VanTableModel;
+    private javax.swing.table.DefaultTableModel BikeTableModel;
+    private javax.swing.table.DefaultTableModel TruckTableModel;
+    private javax.swing.table.DefaultTableModel UserTableModel;
+    
+
 }

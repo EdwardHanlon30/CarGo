@@ -57,6 +57,9 @@
           <Dimension value="[1200, 800]"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="mainFrameStateChanged"/>
+      </Events>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
           <CardConstraints cardName="card2"/>
@@ -749,22 +752,25 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jTabbedPane2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="adminPortal" alignment="0" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jTabbedPane2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="adminPortal" alignment="0" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
-                    <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+                    <Container class="javax.swing.JTabbedPane" name="adminPortal">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="66" green="66" red="0" type="rgb"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="adminPortalStateChanged"/>
+                      </Events>
 
                       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
                       <SubComponents>
@@ -1010,7 +1016,7 @@
 
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
-                                <Component class="javax.swing.JTable" name="jTable1">
+                                <Component class="javax.swing.JTable" name="adminUserTable">
                                   <Properties>
                                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                       <Table columnCount="4" rowCount="4">
@@ -1248,7 +1254,7 @@
 
                                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                                   <SubComponents>
-                                    <Component class="javax.swing.JTable" name="jTable2">
+                                    <Component class="javax.swing.JTable" name="adminAdminTable">
                                       <Properties>
                                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                           <Table columnCount="4" rowCount="4">
@@ -1258,6 +1264,7 @@
                                             <Column editable="true" title="Title 4" type="java.lang.Object"/>
                                           </Table>
                                         </Property>
+                                        <Property name="columnSelectionAllowed" type="boolean" value="true"/>
                                       </Properties>
                                     </Component>
                                   </SubComponents>
@@ -1283,20 +1290,20 @@
                           <Layout>
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTabbedPane3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="updateVehicles" alignment="0" max="32767" attributes="0"/>
                               </Group>
                             </DimensionLayout>
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jTabbedPane3" min="-2" pref="557" max="-2" attributes="0"/>
+                                      <Component id="updateVehicles" min="-2" pref="557" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                           </Layout>
                           <SubComponents>
-                            <Container class="javax.swing.JTabbedPane" name="jTabbedPane3">
+                            <Container class="javax.swing.JTabbedPane" name="updateVehicles">
                               <Properties>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1653,7 +1660,7 @@
 
                                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                                               <SubComponents>
-                                                <Component class="javax.swing.JTable" name="jTable11">
+                                                <Component class="javax.swing.JTable" name="carTable2">
                                                   <Properties>
                                                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                                       <Table columnCount="4" rowCount="4">
@@ -2029,7 +2036,7 @@
 
                                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                                               <SubComponents>
-                                                <Component class="javax.swing.JTable" name="jTable7">
+                                                <Component class="javax.swing.JTable" name="vanTable2">
                                                   <Properties>
                                                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                                       <Table columnCount="4" rowCount="4">
@@ -2379,7 +2386,7 @@
 
                                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                                               <SubComponents>
-                                                <Component class="javax.swing.JTable" name="jTable8">
+                                                <Component class="javax.swing.JTable" name="bikeTable2">
                                                   <Properties>
                                                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                                       <Table columnCount="4" rowCount="4">
@@ -2755,7 +2762,7 @@
 
                                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                                               <SubComponents>
-                                                <Component class="javax.swing.JTable" name="jTable9">
+                                                <Component class="javax.swing.JTable" name="truckTable2">
                                                   <Properties>
                                                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                                       <Table columnCount="4" rowCount="4">
@@ -2939,6 +2946,9 @@
                       <Value id="ON"/>
                     </Property>
                   </Properties>
+                  <Events>
+                    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="carTableMousePressed"/>
+                  </Events>
                 </Component>
               </SubComponents>
             </Container>
@@ -3235,7 +3245,7 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTable" name="carTable2">
+                    <Component class="javax.swing.JTable" name="vanTable">
                       <Properties>
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                           <Table columnCount="4" rowCount="4">
@@ -3544,7 +3554,7 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTable" name="carTable1">
+                    <Component class="javax.swing.JTable" name="bikeTable">
                       <Properties>
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                           <Table columnCount="4" rowCount="4">
@@ -3853,7 +3863,7 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTable" name="carTable3">
+                    <Component class="javax.swing.JTable" name="truckTable">
                       <Properties>
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                           <Table columnCount="4" rowCount="4">
