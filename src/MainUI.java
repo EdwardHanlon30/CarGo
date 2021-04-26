@@ -43,6 +43,20 @@ public class MainUI extends javax.swing.JFrame {
 
     }
     
+    public void updateUserDetails() throws ParseException
+    {
+        Date currentDate = df.parse(DataHandler.loggedInUser.getCardExpiry());
+        loginEmail.setText("");
+        loginPassword.setText("");
+        accountUserName.setText(DataHandler.loggedInUser.getName());
+        accountPassword.setText(DataHandler.loggedInUser.getPassword());
+        accountEmail.setText(DataHandler.loggedInUser.getEmail());
+        accountCardNumber.setText(DataHandler.loggedInUser.getCardNumber());
+        accountExpireDate.setDate(currentDate);
+        accountSecurityCode.setText(DataHandler.loggedInUser.getSecurityCode());
+        System.out.println(DataHandler.loggedInUser.getId());        
+    }
+    
 
     DateFormat df = new SimpleDateFormat("MM/dd/yyyy");
     /**
@@ -2393,7 +2407,7 @@ public class MainUI extends javax.swing.JFrame {
                         expire, Scode))
                 {
                     DataHandler.success = true;
-                    regNotification.setText("Registration was Sucessfull");
+                    JOptionPane.showMessageDialog(null,"Registration has been Sucessfull, Please login !","CarGo", JOptionPane.INFORMATION_MESSAGE);
                     regUserName.setText("");
                     regPassword.setText("");
                     regEmail.setText("");
@@ -2409,7 +2423,7 @@ public class MainUI extends javax.swing.JFrame {
         else 
         {
             DataHandler.success = false;
-            regNotification.setText("Registration Failed!!");
+            JOptionPane.showMessageDialog(null,"Registration Failed, Please check and fill all details and try again","CarGo", JOptionPane.INFORMATION_MESSAGE);
             
         }
 
@@ -2426,19 +2440,10 @@ public class MainUI extends javax.swing.JFrame {
                 if(DataHandler.login(email,pass))
                 {
                     try {
-                        Date currentDate = df.parse(DataHandler.loggedInUser.getCardExpiry());
-                        loginEmail.setText("");
-                        loginPassword.setText("");
-                        accountUserName.setText(DataHandler.loggedInUser.getName());
-                        accountPassword.setText(DataHandler.loggedInUser.getPassword());
-                        accountEmail.setText(DataHandler.loggedInUser.getEmail());
-                        accountCardNumber.setText(DataHandler.loggedInUser.getCardNumber());
-                        accountExpireDate.setDate(currentDate);
-                        accountSecurityCode.setText(DataHandler.loggedInUser.getSecurityCode());
-                        userAccountEdit.setFocusable(true);
+                        JOptionPane.showMessageDialog(null,"Great, You have logged In !!","CarGo", JOptionPane.INFORMATION_MESSAGE);
+                        updateUserDetails();
                         loginConfirm.setEnabled(false);
                         loginConfirm.setVisible(false);
-                        System.out.println(DataHandler.loggedInUser.getId());
                     } catch (ParseException ex) {
                         Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
                     }
@@ -2459,6 +2464,7 @@ public class MainUI extends javax.swing.JFrame {
                     accountUserName.getText(),String.valueOf(accountPassword.getPassword()),
                     accountEmail.getText(),accountCardNumber.getText(),
                     accountExpireDate.getDate(), accountSecurityCode.getText());
+            JOptionPane.showMessageDialog(null,"Your Details have been updated","CarGo", JOptionPane.INFORMATION_MESSAGE);
         } catch (SQLException ex) {
             Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -2541,7 +2547,7 @@ public class MainUI extends javax.swing.JFrame {
         }
         catch(Exception e)
         {
-            JOptionPane.showMessageDialog(null,"Please login before you choose a car");
+            JOptionPane.showMessageDialog(null,"Please login before you choose a car","CarGo", JOptionPane.INFORMATION_MESSAGE);
         }
         
     }//GEN-LAST:event_carTableMousePressed
