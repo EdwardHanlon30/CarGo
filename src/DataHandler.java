@@ -180,15 +180,12 @@ public static void updateUser(int userId, String name,String password, String em
             {
                 System.out.println(e);
             }
-
-
         }
         else
         {
             System.out.println("UPDATE FAILED");
             con.close();
         }
-
     }
     catch ( ClassNotFoundException cnfex ) {
        System.err.println("Issue with driver." );
@@ -209,54 +206,135 @@ public static void addAdmin()
 
 }
 /*############################################################################*/
-public static void searchRecords(String table)	{
-    
-  
-}
 
 /*##########################################################################*/
-public void checkUser()
+public static void checkUser(String table)
 {
-  
+        String sqlQuery2 = "SELECT * FROM "+table+";";
+        try{
+            Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+            con = java.sql.DriverManager.getConnection(DBURL, "","");
+            stm = con.createStatement(       
+              java.sql.ResultSet.TYPE_SCROLL_INSENSITIVE, 
+              java.sql.ResultSet.CONCUR_UPDATABLE);
+            rs = stm.executeQuery(sqlQuery2);
+            rsMeta = rs.getMetaData();
+            columnCount = rsMeta.getColumnCount();
+        }
+        catch ( ClassNotFoundException cnfex ) {
+            System.err.println("Issue with driver." );
+            System.exit( 1 );  // terminate program
+        }
+        catch ( java.sql.SQLException sqlex ) {
+            System.err.println("Check your SQL " + sqlex );
+         }
+        catch ( Exception ex ) {
+            System.err.println( ex );
+        } 
 }
 
 /*############################################################################*/
-public static Object[] getTitles(String table)        {
-    Object [] columnNames = new Object[columnCount];
-    try{
-       for(int col = columnCount; col > 0; col--)
-           columnNames[col-1] =  rsMeta.getColumnName(col);
-    }
-    catch( java.sql.SQLException sqlex ) {
-         System.err.println( sqlex );
-    }
-    return columnNames;
-}
-/*############################################################################*/      
-public static Object[][] getRows(String table)
-{
-    searchRecords(table);
-    Object [][] content;
-    try{
-        // determine the number of rows
-        rs.last();
-        int number = rs.getRow();
-        content = new Object[number][columnCount];
-        rs.beforeFirst();
-
-        int i =0;
-        while(rs.next()) {
-          // each row is an array of objects
-          for(int col = 1; col <= columnCount; col++)   
-              content[i][col - 1] = rs.getObject(col); 
-          i++;
+public static void searchRecords(String table, String type)	{
+        String sqlQuery = "SELECT * FROM "+table+" WHERE vehicleType='"+type+"';";
+        try{
+            Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+            con = java.sql.DriverManager.getConnection(DBURL, "","");
+            stm = con.createStatement(       
+              java.sql.ResultSet.TYPE_SCROLL_INSENSITIVE, 
+              java.sql.ResultSet.CONCUR_UPDATABLE);
+            rs = stm.executeQuery(sqlQuery);
+            rsMeta = rs.getMetaData();
+            columnCount = rsMeta.getColumnCount();
         }
-        return content;
-     }
-     catch( java.sql.SQLException sqlex ) {
-            System.err.println( sqlex );
-     }
-     return null;
+        catch ( ClassNotFoundException cnfex ) {
+            System.err.println("Issue with driver." );
+            System.exit( 1 );  // terminate program
+        }
+        catch ( java.sql.SQLException sqlex ) {
+            System.err.println("Check your SQL " + sqlex );
+         }
+        catch ( Exception ex ) {
+            System.err.println( ex );
+        }
 }
         
+public static Object[] getVehicleTitles(String table) throws SQLException        {
+     Object [] columnNames = new Object[columnCount];
+     try{
+         for(int col = columnCount; col > 0; col--)
+              columnNames[col-1] =  
+                      rsMeta.getColumnName(col);
+     }
+     catch( java.sql.SQLException sqlex ) {
+          System.err.println( sqlex );
+     }
+     con.close();
+     return columnNames;
+}
+        
+public static Object[][] getVehicleRows(String table, String type)        {
+      searchRecords(table,type);
+      Object [][] content;
+      try{
+          // determine the number of rows
+          rs.last();
+          int number = rs.getRow();
+          content = new Object[number][columnCount];
+          rs.beforeFirst();
+          
+          int i =0;
+          while(rs.next()) {
+            // each row is an array of objects
+            for(int col = 1; col <= columnCount; col++)   
+                content[i][col - 1] = rs.getObject(col); 
+            i++;
+          }
+          return content;
+       }
+       catch( java.sql.SQLException sqlex ) {
+              System.err.println( sqlex );
+       }
+       return null;
+}
+
+
+public static Object[] getUserTitles(String table) throws SQLException        {
+     Object [] columnNames = new Object[columnCount];
+     try{
+         for(int col = columnCount; col > 0; col--)
+              columnNames[col-1] =  
+                      rsMeta.getColumnName(col);
+     }
+     catch( java.sql.SQLException sqlex ) {
+          System.err.println( sqlex );
+     }
+     con.close();
+     return columnNames;
+}
+        
+public static Object[][] getUserRows(String table)        {
+      checkUser(table);
+      Object [][] content;
+      try{
+          // determine the number of rows
+          rs.last();
+          int number = rs.getRow();
+          content = new Object[number][columnCount];
+          rs.beforeFirst();
+          
+          int i =0;
+          while(rs.next()) {
+            // each row is an array of objects
+            for(int col = 1; col <= columnCount; col++)   
+                content[i][col - 1] = rs.getObject(col); 
+            i++;
+          }
+          return content;
+       }
+       catch( java.sql.SQLException sqlex ) {
+              System.err.println( sqlex );
+       }
+       return null;
+}
+
 }//End DataHandler class
