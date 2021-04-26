@@ -2389,42 +2389,47 @@ public class MainUI extends javax.swing.JFrame {
     private void regConfirmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regConfirmActionPerformed
         // TODO add your handling code here:
         
-        
-        String failed = "";
-        String name = regUserName.getText();
-        String pass = String.valueOf(regPassword.getPassword());
-        String email = regEmail.getText();
-        String card = regCardNumber.getText();
-        Date newDate = regExpire.getDate();
-        String expire = df.format(newDate);
-        String Scode = regSecurityCode.getText();
-        if(!(isEmpty(name) || isEmpty(pass) || isEmpty(email)
-                || isEmpty(card) || isEmpty(Scode)
-                || expire == null))         
-        {
-            try {
-                if(DataHandler.registerUser(name, pass, email, card,
-                        expire, Scode))
-                {
-                    DataHandler.success = true;
-                    JOptionPane.showMessageDialog(null,"Registration has been Sucessfull, Please login !","CarGo", JOptionPane.INFORMATION_MESSAGE);
-                    regUserName.setText("");
-                    regPassword.setText("");
-                    regEmail.setText("");
-                    regCardNumber.setText("");
-                    regExpire.setDate(newDate);
-                    regSecurityCode.setText("");
+        try{
+            String failed = "";
+            String name = regUserName.getText();
+            String pass = String.valueOf(regPassword.getPassword());
+            String email = regEmail.getText();
+            String card = regCardNumber.getText();
+            Date newDate = regExpire.getDate();
+            String expire = df.format(newDate);
+            String Scode = regSecurityCode.getText();
+            if(!(isEmpty(name) || isEmpty(pass) || isEmpty(email)
+                    || isEmpty(card) || isEmpty(Scode)
+                    || expire == null))         
+            {
+                try {
+                    if(DataHandler.registerUser(name, pass, email, card,
+                            expire, Scode))
+                    {
+                        DataHandler.success = true;
+                        JOptionPane.showMessageDialog(null,"Registration has been Sucessfull, Please login !","CarGo", JOptionPane.INFORMATION_MESSAGE);
+                        regUserName.setText("");
+                        regPassword.setText("");
+                        regEmail.setText("");
+                        regCardNumber.setText("");
+                        regExpire.setDate(newDate);
+                        regSecurityCode.setText("");
+                    }
+                } catch (ParseException | SQLException ex) {
+                    Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
                 }
-            } catch (ParseException | SQLException ex) {
-                Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
-            }
 
-        } 
-        else 
+            } 
+            else 
+            {
+                DataHandler.success = false;
+                JOptionPane.showMessageDialog(null,"Registration Failed, Please check and fill all details and try again","CarGo", JOptionPane.INFORMATION_MESSAGE);
+
+            }
+        }
+        catch(NullPointerException e)
         {
-            DataHandler.success = false;
-            JOptionPane.showMessageDialog(null,"Registration Failed, Please check and fill all details and try again","CarGo", JOptionPane.INFORMATION_MESSAGE);
-            
+            System.out.println(e);
         }
 
     }//GEN-LAST:event_regConfirmActionPerformed
@@ -2448,6 +2453,10 @@ public class MainUI extends javax.swing.JFrame {
                         Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
                     }
                     
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null,"Unknown User, Please Register!!","CarGo", JOptionPane.INFORMATION_MESSAGE);
                 }
             } catch (SQLException ex) {
                 Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
@@ -2529,24 +2538,30 @@ public class MainUI extends javax.swing.JFrame {
 
     private void carTableMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_carTableMousePressed
         // TODO add your handling code here:
-        try{
-            ArrayList <String> details = new ArrayList<>();
-            String selectedData = null;
-            int columnCount = CarTableModel.getColumnCount();
-            int row = carTable.getSelectedRow();
-            for(int i=0;i<columnCount;i++)
-            {
-                selectedData= (String) carTable.getValueAt(row, i).toString();
-                details.add(selectedData);
-            }
-            System.out.println(details);
-            int index = details.size()-1;
-            CarBranchID.setText(details.get(index));
-            CarUserID.setText(String.valueOf(DataHandler.loggedInUser.getId()));
-            CarVehicleID.setText(details.get(0));
-        }
-        catch(Exception e)
+        if(DataHandler.success)
         {
+            try{
+                ArrayList <String> details = new ArrayList<>();
+                String selectedData = null;
+                int columnCount = CarTableModel.getColumnCount();
+                int row = carTable.getSelectedRow();
+                for(int i=0;i<columnCount;i++)
+                {
+                    selectedData= (String) carTable.getValueAt(row, i).toString();
+                    details.add(selectedData);
+                }
+                System.out.println(details);
+                int index = details.size()-1;
+                CarBranchID.setText(details.get(index));
+                CarUserID.setText(String.valueOf(DataHandler.loggedInUser.getId()));
+                CarVehicleID.setText(details.get(0));
+            }
+            catch(Exception e)
+            {
+                System.out.println(e);
+            }
+        }
+        else{
             JOptionPane.showMessageDialog(null,"Please login before you choose a car","CarGo", JOptionPane.INFORMATION_MESSAGE);
         }
         
