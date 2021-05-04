@@ -2499,7 +2499,7 @@ public class MainUI extends javax.swing.JFrame {
                 break;
             case 3:
                 try {
-                    BikeTableModel.setDataVector(DataHandler.getVehicleRows("motorVehicle","bike"),DataHandler.getVehicleTitles("motorVehicle"));
+                    BikeTableModel.setDataVector(DataHandler.getVehicleRows("motorVehicle","motorbike"),DataHandler.getVehicleTitles("motorVehicle"));
                 } catch (SQLException ex) {
                     Logger.getLogger(MainUI.class.getName()).log(Level.SEVERE, null, ex);
                 }
